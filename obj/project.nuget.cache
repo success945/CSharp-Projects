@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "afDt3hpmldc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\SimpleCast\\SimpleCast.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.12\\microsoft.win32.systemevents.10.0.12.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.drawing.common\\10.0.12\\system.drawing.common.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

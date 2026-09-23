@@ -1,0 +1,15 @@
+C:\Users\HP\SimpleCast\bin\Debug\net10.0\SimpleCast.exe
+C:\Users\HP\SimpleCast\bin\Debug\net10.0\SimpleCast.deps.json
+C:\Users\HP\SimpleCast\bin\Debug\net10.0\SimpleCast.runtimeconfig.json
+C:\Users\HP\SimpleCast\bin\Debug\net10.0\SimpleCast.dll
+C:\Users\HP\SimpleCast\bin\Debug\net10.0\SimpleCast.pdb
+C:\Users\HP\SimpleCast\obj\Debug\net10.0\SimpleCast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\SimpleCast\obj\Debug\net10.0\SimpleCast.AssemblyInfoInputs.cache
+C:\Users\HP\SimpleCast\obj\Debug\net10.0\SimpleCast.AssemblyInfo.cs
+C:\Users\HP\SimpleCast\obj\Debug\net10.0\SimpleCast.csproj.CoreCompileInputs.cache
+C:\Users\HP\SimpleCast\obj\Debug\net10.0\SimpleCast.dll
+C:\Users\HP\SimpleCast\obj\Debug\net10.0\refint\SimpleCast.dll
+C:\Users\HP\SimpleCast\obj\Debug\net10.0\SimpleCast.pdb
+C:\Users\HP\SimpleCast\obj\Debug\net10.0\SimpleCast.genruntimeconfig.cache
+C:\Users\HP\SimpleCast\obj\Debug\net10.0\ref\SimpleCast.dll
+C:\Users\HP\SimpleCast\obj\Debug\net10.0\SimpleCast.sourcelink.json
