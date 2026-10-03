@@ -12,4 +12,18 @@
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\HP\.nuget\packages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.buildtools.msix\1.7.20250829.1\buildTransitive\Microsoft.Windows.SDK.BuildTools.MSIX.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.buildtools.msix\1.7.20250829.1\buildTransitive\Microsoft.Windows.SDK.BuildTools.MSIX.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windows.sdk.buildtools\10.0.26100.4654\buildTransitive\Microsoft.Windows.SDK.BuildTools.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windows.sdk.buildtools\10.0.26100.4654\buildTransitive\Microsoft.Windows.SDK.BuildTools.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.base\1.8.251216001\buildTransitive\Microsoft.WindowsAppSDK.Base.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.base\1.8.251216001\buildTransitive\Microsoft.WindowsAppSDK.Base.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.interactiveexperiences\1.8.260125001\buildTransitive\Microsoft.WindowsAppSDK.InteractiveExperiences.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.interactiveexperiences\1.8.260125001\buildTransitive\Microsoft.WindowsAppSDK.InteractiveExperiences.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.foundation\1.8.260203002\buildTransitive\Microsoft.WindowsAppSDK.Foundation.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.foundation\1.8.260203002\buildTransitive\Microsoft.WindowsAppSDK.Foundation.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.winui\1.8.260204000\buildTransitive\Microsoft.WindowsAppSDK.WinUI.props" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.winui\1.8.260204000\buildTransitive\Microsoft.WindowsAppSDK.WinUI.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.graphics.win2d\1.4.0\buildTransitive\net6.0-windows10.0.19041.0\Microsoft.Graphics.Win2D.props" Condition="Exists('$(NuGetPackageRoot)microsoft.graphics.win2d\1.4.0\buildTransitive\net6.0-windows10.0.19041.0\Microsoft.Graphics.Win2D.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_Windows_SDK_BuildTools_MSIX Condition=" '$(PkgMicrosoft_Windows_SDK_BuildTools_MSIX)' == '' ">C:\Users\HP\.nuget\packages\microsoft.windows.sdk.buildtools.msix\1.7.20250829.1</PkgMicrosoft_Windows_SDK_BuildTools_MSIX>
+    <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\HP\.nuget\packages\microsoft.web.webview2\1.0.3179.45</PkgMicrosoft_Web_WebView2>
+    <PkgMicrosoft_WindowsAppSDK_WinUI Condition=" '$(PkgMicrosoft_WindowsAppSDK_WinUI)' == '' ">C:\Users\HP\.nuget\packages\microsoft.windowsappsdk.winui\1.8.260204000</PkgMicrosoft_WindowsAppSDK_WinUI>
+  </PropertyGroup>
 </Project>

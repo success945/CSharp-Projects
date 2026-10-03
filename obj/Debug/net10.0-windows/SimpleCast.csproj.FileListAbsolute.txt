@@ -1,0 +1,15 @@
+C:\Users\HP\SimpleCast\bin\Debug\net10.0-windows\SimpleCast.exe
+C:\Users\HP\SimpleCast\bin\Debug\net10.0-windows\SimpleCast.deps.json
+C:\Users\HP\SimpleCast\bin\Debug\net10.0-windows\SimpleCast.runtimeconfig.json
+C:\Users\HP\SimpleCast\bin\Debug\net10.0-windows\SimpleCast.dll
+C:\Users\HP\SimpleCast\bin\Debug\net10.0-windows\SimpleCast.pdb
+C:\Users\HP\SimpleCast\obj\Debug\net10.0-windows\SimpleCast.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\SimpleCast\obj\Debug\net10.0-windows\SimpleCast.AssemblyInfoInputs.cache
+C:\Users\HP\SimpleCast\obj\Debug\net10.0-windows\SimpleCast.AssemblyInfo.cs
+C:\Users\HP\SimpleCast\obj\Debug\net10.0-windows\SimpleCast.csproj.CoreCompileInputs.cache
+C:\Users\HP\SimpleCast\obj\Debug\net10.0-windows\SimpleCast.sourcelink.json
+C:\Users\HP\SimpleCast\obj\Debug\net10.0-windows\SimpleCast.dll
+C:\Users\HP\SimpleCast\obj\Debug\net10.0-windows\refint\SimpleCast.dll
+C:\Users\HP\SimpleCast\obj\Debug\net10.0-windows\SimpleCast.pdb
+C:\Users\HP\SimpleCast\obj\Debug\net10.0-windows\SimpleCast.genruntimeconfig.cache
+C:\Users\HP\SimpleCast\obj\Debug\net10.0-windows\ref\SimpleCast.dll

@@ -2,14 +2,58 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 
-Rectangle screenSize = new Rectangle(
+IntPtr selectedWindow =
+    WindowFinder.ChooseWindow();
+
+Console.WriteLine(
+    $"Selected window handle: {selectedWindow}"
+);
+
+var captureItem =
+    CaptureItemHelper.CreateForWindow(
+        selectedWindow
+    );
+
+Console.WriteLine(
+    $"Windows Graphics Capture item created: {captureItem.DisplayName}"
+);
+
+var graphicsDevice =
+    Direct3DHelper.CreateDevice();
+
+Console.WriteLine(
+    "Direct3D capture device created successfully."
+);
+
+GraphicsCapture.Start(
+    graphicsDevice,
+    captureItem
+);
+
+WindowFinder.GetWindowRect(
+    selectedWindow,
+    out WindowFinder.RECT windowRect
+);
+
+int windowWidth =
+    windowRect.Right - windowRect.Left;
+
+int windowHeight =
+    windowRect.Bottom - windowRect.Top;
+
+/*Rectangle screenSize = new Rectangle(
     0,
     0,
     683,
     384
+);*/
+
+Rectangle screenSize = new Rectangle(
+    windowRect.Left,
+    windowRect.Top,
+    windowWidth,
+    windowHeight
 );
-
-
 
 
 HttpListener server = new HttpListener();
@@ -17,6 +61,16 @@ HttpListener server = new HttpListener();
 server.Prefixes.Add("http://*:8080/");
 
 server.Start();
+
+
+
+Console.WriteLine(
+    $"Window position: {windowRect.Left}, {windowRect.Top}"
+);
+
+Console.WriteLine(
+    $"Window size: {windowWidth} x {windowHeight}"
+);
 
 Console.WriteLine("SimpleCast server is running.");
 
@@ -26,8 +80,10 @@ Console.WriteLine("Waiting for a connection...");
 
 HttpListenerContext connection = server.GetContext();
 string path = connection.Request.Url.AbsolutePath;
-if (path == "/screen")
-{
+
+#if false
+/*if (path == "/screen")
+{*/
 /*string message = "Hello from SimpleCast!";
 byte[] data = System.Text.Encoding.UTF8.GetBytes(message);*/
 
@@ -44,11 +100,14 @@ graphics.CopyFromScreen(
     0,
     0,
     screenSize.Size
-);
+); */
+
+/*using Bitmap screenshot =
+    WindowCapture.Capture(selectedWindow);
 
 Console.WriteLine(
     "Screenshot captured!"
-);
+);*/
 
 /*screenshot.Save(
     "screenshot.png",
@@ -56,7 +115,10 @@ Console.WriteLine(
 );
 
 byte[] data = File.ReadAllBytes("screenshot.png");*/
-connection.Response.ContentType = "image/png";
+/*connection.Response.ContentType = "image/png";*/
+/*connection.Response.Headers.Add("Cache-Control", "no-cache, no-store, must-revalidate");
+connection.Response.Headers.Add("Pragma", "no-cache");
+connection.Response.Headers.Add("Expires", "0");
 
 using MemoryStream memory = new MemoryStream();
 
@@ -67,11 +129,71 @@ screenshot.Save(
 byte[] data = memory.ToArray();
 
 connection.Response.ContentLength64 = data.Length;
+try {
 connection.Response.OutputStream.Write(data, 0, data.Length);
 connection.Response.OutputStream.Close();
 
 Console.WriteLine("Message sent!");
-} // close if
+} // close try
+catch (System.Net.HttpListenerException)
+{
+    Console.WriteLine("Connection closed by device");
+} // close catch
+} */ // close if 
+#endif
+if (path == "/screen")
+{
+    byte[]? data =
+        GraphicsCapture.GetLatestPng();
+
+    if (data == null)
+    {
+        string message =
+            "Waiting for first captured frame...";
+
+        byte[] waitingData =
+            System.Text.Encoding.UTF8.GetBytes(message);
+
+        connection.Response.ContentType =
+            "text/plain";
+
+        connection.Response.ContentLength64 =
+            waitingData.Length;
+
+        connection.Response.OutputStream.Write(
+            waitingData,
+            0,
+            waitingData.Length
+        );
+
+        connection.Response.OutputStream.Close();
+
+        continue;
+    }
+
+    connection.Response.ContentType =
+        "image/png";
+
+    connection.Response.ContentLength64 =
+        data.Length;
+
+    try
+    {
+        connection.Response.OutputStream.Write(
+            data,
+            0,
+            data.Length
+        );
+
+        connection.Response.OutputStream.Close();
+    }
+    catch (HttpListenerException)
+    {
+        Console.WriteLine(
+            "Connection closed by device"
+        );
+    }
+}
 else
 {
     // string page = "SimpleCast Receiver";
@@ -135,5 +257,14 @@ string page = @"
     );
 
     connection.Response.OutputStream.Close();
+/*
+string page = @"
+<html>
+<body style='background:white;'>
+    <h1 style='color:red;font-size:80px;'>
+        SIMPLECAST TEST
+    </h1>
+</body>
+</html>"; */
 }
 } // close while
