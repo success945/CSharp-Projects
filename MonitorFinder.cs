@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
@@ -16,6 +15,12 @@ static class MonitorFinder
     {
         public int X;
         public int Y;
+    }
+
+    public static Screen? SelectedScreen
+    {
+        get;
+        private set;
     }
 
     public static IntPtr ChooseMonitor()
@@ -40,16 +45,22 @@ static class MonitorFinder
         Console.WriteLine();
         Console.Write("Enter number: ");
 
-        int choice = int.Parse(Console.ReadLine()!);
+        int choice = int.Parse(
+            Console.ReadLine()!
+        );
 
-        Screen selected = screens[choice - 1];
+        SelectedScreen =
+            screens[choice - 1];
 
         POINT point = new POINT
         {
-            X = selected.Bounds.Left + 1,
-            Y = selected.Bounds.Top + 1
+            X = SelectedScreen.Bounds.Left + 1,
+            Y = SelectedScreen.Bounds.Top + 1
         };
 
-        return MonitorFromPoint(point, 2);
+        return MonitorFromPoint(
+            point,
+            2
+        );
     }
 }

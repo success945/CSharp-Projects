@@ -41,6 +41,16 @@ GraphicsCapture.Start(
     captureItem
 );
 
+Thread previewThread = new Thread(() =>
+{
+    ApplicationConfiguration.Initialize();
+    Application.Run(new PreviewForm());
+});
+
+previewThread.SetApartmentState(ApartmentState.STA);
+previewThread.IsBackground = true;
+previewThread.Start();
+
 #if false
 WindowFinder.GetWindowRect(
     selectedWindow,

@@ -1,26 +1,21 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Drawing;
 
 static class WindowFinder
 {
-    // This describes the function Windows will use
-    // while going through all open windows.
     public delegate bool EnumWindowsProc(
         IntPtr hWnd,
         IntPtr lParam
     );
 
-
-    // Ask Windows for all currently open windows.
     [System.Runtime.InteropServices.DllImport("user32.dll")]
     public static extern bool EnumWindows(
         EnumWindowsProc enumProc,
         IntPtr lParam
     );
 
-
-    // Get the title/name of a window.
     [System.Runtime.InteropServices.DllImport(
         "user32.dll",
         CharSet = System.Runtime.InteropServices.CharSet.Unicode
@@ -31,34 +26,52 @@ static class WindowFinder
         int count
     );
 
+    [System.Runtime.InteropServices.DllImport("user32.dll")]
+    public static extern bool SetWindowPos(
+        IntPtr hWnd,
+        IntPtr hWndInsertAfter,
+        int X,
+        int Y,
+        int cx,
+        int cy,
+        uint uFlags
+    );
 
-    // Check whether the window is actually visible.
     [System.Runtime.InteropServices.DllImport("user32.dll")]
     public static extern bool IsWindowVisible(
         IntPtr hWnd
     );
 
+    [System.Runtime.InteropServices.DllImport("user32.dll")]
+    public static extern bool GetWindowRect(
+        IntPtr hWnd,
+        out RECT rect
+    );
 
-    // Find all visible windows and let the user choose one.
-    public static IntPtr ChooseWindow()
+    public struct RECT
     {
-        List<IntPtr> handles = new List<IntPtr>();
-        List<string> titles = new List<string>();
+        public int Left;
+        public int Top;
+        public int Right;
+        public int Bottom;
+    }
 
+        public static IntPtr ChooseWindow()
+    {
+        List<IntPtr> handles = new();
+        List<string> titles = new();
 
         EnumWindows((hWnd, lParam) =>
         {
             if (IsWindowVisible(hWnd))
             {
-                StringBuilder title =
-                    new StringBuilder(256);
+                StringBuilder title = new(256);
 
                 GetWindowText(
                     hWnd,
                     title,
                     title.Capacity
                 );
-
 
                 if (title.Length > 0)
                 {
@@ -68,14 +81,11 @@ static class WindowFinder
             }
 
             return true;
-        },
-        IntPtr.Zero);
-
+        }, IntPtr.Zero);
 
         Console.WriteLine();
         Console.WriteLine("Choose a window to cast:");
         Console.WriteLine();
-
 
         for (int i = 0; i < titles.Count; i++)
         {
@@ -84,7 +94,6 @@ static class WindowFinder
             );
         }
 
-
         Console.WriteLine();
         Console.Write("Enter number: ");
 
@@ -92,58 +101,68 @@ static class WindowFinder
             Console.ReadLine()!
         );
 
-
         return handles[choice - 1];
     }
 
-    [System.Runtime.InteropServices.DllImport("user32.dll")]
-public static extern bool GetWindowRect(
-    IntPtr hWnd,
-    out RECT rect
-);
-
-public struct RECT
-{
-    public int Left;
-    public int Top;
-    public int Right;
-    public int Bottom;
-}
-public class WindowInfo
-{
-    public IntPtr Handle { get; set; }
-    public string Title { get; set; } = "";
-
-    public override string ToString()
+    public class WindowInfo
     {
-        return Title;
-    }
-}
+        public IntPtr Handle { get; set; }
 
-public static List<WindowInfo> GetWindows()
-{
-    List<WindowInfo> windows = new();
+        public string Title { get; set; } = "";
 
-    EnumWindows((hWnd, lParam) =>
-    {
-        if (IsWindowVisible(hWnd))
+        public override string ToString()
         {
-            StringBuilder title = new(256);
-            GetWindowText(hWnd, title, title.Capacity);
-
-            if (title.Length > 0)
-            {
-                windows.Add(new WindowInfo
-                {
-                    Handle = hWnd,
-                    Title = title.ToString()
-                });
-            }
+            return Title;
         }
+    }
 
-        return true;
-    }, IntPtr.Zero);
+        public static List<WindowInfo> GetWindows()
+    {
+        List<WindowInfo> windows = new();
 
-    return windows;
-}
+        EnumWindows((hWnd, lParam) =>
+        {
+            if (IsWindowVisible(hWnd))
+            {
+                StringBuilder title = new(256);
+
+                GetWindowText(
+                    hWnd,
+                    title,
+                    title.Capacity
+                );
+
+                if (title.Length > 0)
+                {
+                    windows.Add(
+                        new WindowInfo
+                        {
+                            Handle = hWnd,
+                            Title = title.ToString()
+                        }
+                    );
+                }
+            }
+
+            return true;
+        }, IntPtr.Zero);
+
+        return windows;
+    }
+
+    public static void MoveWindowToMonitor(
+        IntPtr windowHandle,
+        Rectangle monitorBounds
+    )
+    {
+        SetWindowPos(
+            windowHandle,
+            IntPtr.Zero,
+            monitorBounds.X,
+            monitorBounds.Y,
+            monitorBounds.Width,
+            monitorBounds.Height,
+            0x0000
+        );
+    }
 }
