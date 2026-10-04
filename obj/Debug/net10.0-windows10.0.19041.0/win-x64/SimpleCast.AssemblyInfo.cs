@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleCast")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+287910eb3da5e175c8598b2a87464990c2a8b0dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b2ea71badc22de62c847caedb9265913c589f35")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleCast")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleCast")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

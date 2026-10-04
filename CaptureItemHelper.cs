@@ -51,4 +51,32 @@ static class CaptureItemHelper
             Marshal.Release(itemPointer);
         }
     }
+
+    public static GraphicsCaptureItem CreateForMonitor(
+    IntPtr monitorHandle
+)
+{
+    var interop =
+        GraphicsCaptureItem
+            .As<IGraphicsCaptureItemInterop>();
+
+    Guid iid = GraphicsCaptureItemGuid;
+
+    IntPtr itemPointer =
+        interop.CreateForMonitor(
+            monitorHandle,
+            ref iid
+        );
+
+    try
+    {
+        return MarshalInterface<GraphicsCaptureItem>
+            .FromAbi(itemPointer);
+    }
+    finally
+    {
+        Marshal.Release(itemPointer);
+    }
+}
+
 }

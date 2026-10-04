@@ -109,4 +109,41 @@ public struct RECT
     public int Right;
     public int Bottom;
 }
+public class WindowInfo
+{
+    public IntPtr Handle { get; set; }
+    public string Title { get; set; } = "";
+
+    public override string ToString()
+    {
+        return Title;
+    }
+}
+
+public static List<WindowInfo> GetWindows()
+{
+    List<WindowInfo> windows = new();
+
+    EnumWindows((hWnd, lParam) =>
+    {
+        if (IsWindowVisible(hWnd))
+        {
+            StringBuilder title = new(256);
+            GetWindowText(hWnd, title, title.Capacity);
+
+            if (title.Length > 0)
+            {
+                windows.Add(new WindowInfo
+                {
+                    Handle = hWnd,
+                    Title = title.ToString()
+                });
+            }
+        }
+
+        return true;
+    }, IntPtr.Zero);
+
+    return windows;
+}
 }

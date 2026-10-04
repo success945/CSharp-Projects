@@ -2,9 +2,13 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 
+//ApplicationConfiguration.Initialize();
+//Application.Run(new MainForm());
+//return;
+
+#if false
 IntPtr selectedWindow =
     WindowFinder.ChooseWindow();
-
 Console.WriteLine(
     $"Selected window handle: {selectedWindow}"
 );
@@ -13,6 +17,13 @@ var captureItem =
     CaptureItemHelper.CreateForWindow(
         selectedWindow
     );
+#endif
+IntPtr selectedMonitor = MonitorFinder.ChooseMonitor();
+
+Console.WriteLine($"Selected monitor handle: {selectedMonitor}");
+
+var captureItem =
+    CaptureItemHelper.CreateForMonitor(selectedMonitor);
 
 Console.WriteLine(
     $"Windows Graphics Capture item created: {captureItem.DisplayName}"
@@ -30,6 +41,7 @@ GraphicsCapture.Start(
     captureItem
 );
 
+#if false
 WindowFinder.GetWindowRect(
     selectedWindow,
     out WindowFinder.RECT windowRect
@@ -48,13 +60,14 @@ int windowHeight =
     384
 );*/
 
+
 Rectangle screenSize = new Rectangle(
     windowRect.Left,
     windowRect.Top,
     windowWidth,
     windowHeight
 );
-
+#endif
 
 HttpListener server = new HttpListener();
 
@@ -63,14 +76,14 @@ server.Prefixes.Add("http://*:8080/");
 server.Start();
 
 
-
+#if false
 Console.WriteLine(
     $"Window position: {windowRect.Left}, {windowRect.Top}"
 );
-
 Console.WriteLine(
     $"Window size: {windowWidth} x {windowHeight}"
 );
+#endif
 
 Console.WriteLine("SimpleCast server is running.");
 
