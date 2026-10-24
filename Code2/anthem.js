@@ -1,257 +1,284 @@
 const anthemFolders = [
 
-    // =========================
-    // CHOIR ANTHEM
-    // =========================
+    // ==========================================
+    // SECTION 1: ANTHEM
+    // ==========================================
 
     {
-    name: "anthem",
-    items: [
-        {
-            title: "Verse 1",
-            lyrics: `I cannot fail eeh
-I cannot fail
-I cannot fail eeh
-I cannot fail
-For me to fail eeh
-God has to fail
-Because my God
-Cannot fail
-I cannot fail`
-        },
-
-        {
-            title: "Verse 2",
-            lyrics: `Choir anthem ongoing`
-        },
-
-        {
-            title: "Chorus",
-            lyrics: `Emiko o, Emiko o
-Olorun iwo ni
-Olorun iwo ni`
-        }
-    ]
-},
-
-
-    // =========================
-    // CAC HYMN 998
-    // =========================
-
-    {
-        name: "998",
-        language: "English",
+        name: "anthem",
         items: [
             {
                 title: "Verse 1",
-                lyrics: `Jesus only is our message,
-Jesus all our theme shall be,
-We will lift up Jesus ever,
-Jesus only will we see.`
-            },
+                lyrics: `Oluwa dide
+Oluwa o, dide o
+Dide o, dide o
+Ko wa fi agbara re han
 
-            {
-                title: "Chorus 1",
-                lyrics: `Jesus only, Jesus ever,
-Jesus all in all we sing;
-Saviour, Sanctifier, Healer,
-Glorious Lord and coming King.`
+×2`
             },
 
             {
                 title: "Verse 2",
-                lyrics: `Jesus only is our Saviour,
-All our guilt He bore away,
-All our righteousness He gives us,
-All our strength from day to day.`
+                lyrics: `O God of signs and wonders
+Saviour Redeemer
+Come and manifest Your power
+Dide o, dide o
+
+×2`
             },
 
             {
-                title: "Chorus 2",
-                lyrics: `Jesus only, Jesus ever,
-Jesus all in all we sing;
-Saviour, Sanctifier, Healer,
-Glorious Lord and coming King.`
+                title: "Interlude",
+                lyrics: `Interlude`
             },
 
             {
-                title: "Verse 3",
-                lyrics: `Jesus is our Sancifier,
-Cleansing us from self and sin,
-And with all His Spirit’s fullness,
-Filling all our hearts within.`
+                title: "Exhortation",
+                lyrics: `Exhortation`
             },
 
             {
-                title: "Chorus 3",
-                lyrics: `Jesus only, Jesus ever,
-Jesus all in all we sing;
-Saviour, Sanctifier, Healer,
-Glorious Lord and coming King.`
+                title: "Spoken Interlude",
+                lyrics: `Spoken Interlude`
             },
 
             {
-                title: "Verse 4",
-                lyrics: `Jesus only is our Healer,
-All our sicknesses he bare,
-And His risen life and fullness,
-All His members still may share.`
+                title: "Ministration",
+                lyrics: `Ministration`
             },
 
             {
-                title: "Chorus 4",
-                lyrics: `Jesus only, Jesus ever,
-Jesus all in all we sing;
-Saviour, Sanctifier, Healer,
-Glorious Lord and coming King.`
+                title: "Spoken Word",
+                lyrics: `Spoken Word`
             },
 
             {
-                title: "Verse 5",
-                lyrics: `Jesus only is our Power,
-He is the gift of pentecost;
-Jesus, breathe Thy power upon us,
-Fill us with the Holy Ghost.`
-            },
+                title: "Prophetic Exhortation",
+                lyrics: `Prophetic Exhortation`
+            }
+        ]
+    },
 
-            {
-                title: "Chorus 5",
-                lyrics: `Jesus only, Jesus ever,
-Jesus all in all we sing;
-Saviour, Sanctifier, Healer,
-Glorious Lord and coming King.`
-            },
 
-            {
-                title: "Verse 6",
-                lyrics: `And for Jesus we are waiting,
-Listening for the Advent call,
-But ’twill still be Jesus only,
-Jesus ever, all in all.`
-            },
+    // ==========================================
+    // SECTION 2: WATCHWORD & SLOGAN
+    // ==========================================
 
+    {
+        name: "watchword",
+        items: [
             {
-                title: "Chorus 6",
-                lyrics: `Jesus only, Jesus ever,
-Jesus all in all we sing;
-Saviour, Sanctifier, Healer,
-Glorious Lord and coming King.`
-            },
+                title: "Watchword 2026",
+                lyrics: `Open my eyes, that I may see
+Wondrous things from Your law.
 
-            {
-                title: "Amen",
-                lyrics: `Amen.`
+Psalm 119:18`
             }
         ]
     },
 
     {
-    name: "998",
-    language: "Yoruba",
-    items: [
-        {
-            title: "Verse 1",
-            lyrics: `Jesu nikan li a nwasu;
-Jesu nikan l'a nrohin,
-Awa y'o gbe Jesu soke,
-On nikan l'awa nfe ri.`
-        },
+        name: "slogan",
+        items: [
+            {
+                title: "Slogan",
+                lyrics: `𝄆 Surely goodness and mercy
+Shall follow me
+All the days of my life 𝄇 ×2
 
-        {
-            title: "Chorus 1",
-            lyrics: `Jesu nikan, Jesu nikan,
-Jesu nikan l'orin wa,
-Olugbala, Oluwosan;
-Oba tỉ mbo lekeji.`
-        },
+Psalm 23:6`
+            }
+        ]
+    },
 
-        {
-            title: "Verse 2",
-            lyrics: `Jesu ni Olugbala wa;
-O ru gbogbo ebi wa,
-Ododo Re lo gbe wo wa,
-O ns'agbara wa d'otun.`
-        },
 
-        {
-            title: "Chorus 2",
-            lyrics: `Jesu nikan, Jesu nikan,
-Jesu nikan lorin wa,
-Olugbala, Oluwosan;
-Oba ti mbo lekeji.`
-        },
+    // ==========================================
+    // SECTION 3: SUNDAY SCHOOL
+    // ==========================================
 
-        {
-            title: "Verse 3",
-            lyrics: `Jesu l'o nso wa di mimo;
-T'o nwe abawon wa nu,
-O nsegun ese at' ara;
-Nipa iranwo Emi.`
-        },
+    {
+        name: "sunday school",
+        language: "English",
+        items: [
+            {
+                title: "Chorus 1",
+                lyrics: `Wonderful Word of Mighty God
+The Word is a lamp to my feet
+The Word is a light to my way
+Spirit of God, my Teacher be
+Throughout the Sunday School of today
+Teach me, O Lord, I pray.`
+            },
 
-        {
-            title: "Chorus 3",
-            lyrics: `Jesu nikan, Jesu nikan,
-Jesu nikan l'orin wa,
-Olugbala, Oluwosan;
-Oba ti mbo lekeji.`
-        },
+            {
+                title: "Verse 1",
+                lyrics: `Teach me, O Lord, Thy truth to know
+Open my heart, O Lord, I pray,
+Help me to understand Thy Word,
+Teach me, I would be wholly Thine.`
+            },
 
-        {
-            title: "Verse 4",
-            lyrics: `Jesu ni Oluwosan wa;
-O tiru ailera wa,
-Nip' agbara ajinde Re,
-A ni ilera pipe.`
-        },
+            {
+                title: "Chorus 2",
+                lyrics: `Wonderful Word of Mighty God
+The Word is a lamp to my feet
+The Word is a light to my way
+Spirit of God, my Teacher be
+Throughout the Sunday School of today
+Teach me, O Lord, I pray.`
+            },
 
-        {
-            title: "Chorus 4",
-            lyrics: `Jesu nikan, Jesu nikan,
-Jesu nikan lorin wa,
-Olugbala, Oluwosan;
-Oba ti mbo lekeji.`
-        },
+            {
+                title: "Verse 2",
+                lyrics: `Teach me, O Lord, Thy way to know
+That I may never go astray,
+Purge me from sin, O Lord, I pray
+Teach me, I would be wholly Thine.`
+            },
 
-        {
-            title: "Verse 5",
-            lyrics: `Jesu nikan l'agbara wa;
-Agbara Pentokosti,
-Jo, da agbara yi lu wa;
-F'Emi Mimo Re kun wa.`
-        },
+            {
+                title: "Chorus 3",
+                lyrics: `Wonderful Word of Mighty God
+The Word is a lamp to my feet
+The Word is a light to my way
+Spirit of God, my Teacher be
+Throughout the Sunday School of today
+Teach me, O Lord, I pray.`
+            },
 
-        {
-            title: "Chorus 5",
-            lyrics: `Jesu nikan, Jesu nikan,
-Jesu nikan l'orin wa,
-Olugbala, Oluwosan;
-Oba ti mbo lekeji.`
-        },
+            {
+                title: "Verse 3",
+                lyrics: `Teach me, O Lord, nearer to Thee,
+Let me move closer to Your side,
+Oh, daily let me walk with Thee,
+Teach me, I would be wholly Thine.`
+            },
 
-        {
-            title: "Verse 6",
-            lyrics: `Jesu ni awa nduro de;
-A nreti ohun ipe,
-'Gbat'O ba de, Jesu nikan;
-Y'o je Orin wa titi.`
-        },
+            {
+                title: "Chorus 4",
+                lyrics: `Wonderful Word of Mighty God
+The Word is a lamp to my feet
+The Word is a light to my way
+Spirit of God, my Teacher be
+Throughout the Sunday School of today
+Teach me, O Lord, I pray.`
+            },
 
-        {
-            title: "Chorus 6",
-            lyrics: `Jesu nikan, Jesu nikan,
-Jesu nikan lorin wa,
-Olugbala, Oluwosan;
-Oba ti mbo lekeji.`
-        },
+            {
+                title: "Verse 4",
+                lyrics: `Teach me, O Lord, Thy will to know
+To do Thy will from day to day,
+More of Your love to others show,
+Teach me, I would be wholly Thine.`
+            },
 
-        {
-            title: "Amin",
-            lyrics: `Amin.`
-        }
-    ]
-},
+            {
+                title: "Chorus 5",
+                lyrics: `Wonderful Word of Mighty God
+The Word is a lamp to my feet
+The Word is a light to my way
+Spirit of God, my Teacher be
+Throughout the Sunday School of today
+Teach me, O Lord, I pray.`
+            }
+        ]
+    },
+
+    {
+        name: "sunday school",
+        language: "Yoruba",
+        items: [
+            {
+                title: "Chorus 1",
+                lyrics: `Ìyanu Ọrọ Ọlọ́run,
+Ní fìtílà fún ẹsẹ mi,
+Imọ́lẹ̀ s'ipa ọ̀nà mi;
+Ẹ̀mí Ọ̀run j'Olukọ mi,
+N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
+Kọ mi Olúwa.`
+            },
+
+            {
+                title: "Verse 1",
+                lyrics: `Kọmi Jésù l'Otitọ Rẹ
+Ṣími ni ye Olúwa mi;
+Jọ̀wọ́ fi ọ̀rọ̀ Rẹ ye mi
+Kọmi k'emi le jẹ tiRẹ`
+            },
+
+            {
+                title: "Chorus 2",
+                lyrics: `Ìyanu Ọrọ Ọlọ́run,
+Ní fìtílà fún ẹsẹ mi,
+Imọ́lẹ̀ s'ipa ọ̀nà mi;
+Ẹ̀mí Ọ̀run j'Olukọ mi,
+N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
+Kọ mi Olúwa.`
+            },
+
+            {
+                title: "Verse 2",
+                lyrics: `Kọmi Jésù, ní ọ̀nà Rẹ
+K'emi máṣe tún ṣákolọ
+Jọ̀wọ́ gbàmí lọ́wọ́ ẹsẹ,
+Kọmi k'emi le jẹ tiRẹ.`
+            },
+
+            {
+                title: "Chorus 3",
+                lyrics: `Ìyanu Ọrọ Ọlọ́run,
+Ní fìtílà fún ẹsẹ mi,
+Imọ́lẹ̀ s'ipa ọ̀nà mi;
+Ẹ̀mí Ọ̀run j'Olukọ mi,
+N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
+Kọ mi Olúwa.`
+            },
+
+            {
+                title: "Verse 3",
+                lyrics: `Kọmi Jésù kí nsumọ Ọ
+Ki ntunbọ sunmọ ọdọ Rẹ
+Ki nba Ọ rin lojojumọ
+Kọmi k'emi le jẹ tiRẹ.`
+            },
+
+            {
+                title: "Chorus 4",
+                lyrics: `Ìyanu Ọrọ Ọlọ́run,
+Ní fìtílà fún ẹsẹ mi,
+Imọ́lẹ̀ s'ipa ọ̀nà mi;
+Ẹ̀mí Ọ̀run j'Olukọ mi,
+N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
+Kọ mi Olúwa.`
+            },
+
+            {
+                title: "Verse 4",
+                lyrics: `Kọmi Jésù, kí nmọ 'fẹ Re
+Kí ńṣe' fẹ Rẹ lojojumọ
+Kí nfi 'fẹ Rẹ hàn ẹlòmi,
+Kọmi k'emi le jẹ tiRẹ.`
+            },
+
+            {
+                title: "Chorus 5",
+                lyrics: `Ìyanu Ọrọ Ọlọ́run,
+Ní fìtílà fún ẹsẹ mi,
+Imọ́lẹ̀ s'ipa ọ̀nà mi;
+Ẹ̀mí Ọ̀run j'Olukọ mi,
+N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
+Kọ mi Olúwa.`
+            }
+        ]
+    }
+
+    // ==========================================
+    // SECTION 4: HYMNS
+    // To be added next
+    // ==========================================
+// ==========================================
+// HYMN 259 — ENGLISH
+// ==========================================
 
 {
     name: "259",
@@ -264,7 +291,6 @@ For he is so precious to me,
 His voice it is music to hear it,
 His face it is heaven to see.`
         },
-
         {
             title: "Chorus 1",
             lyrics: `I am happy in Him,
@@ -273,7 +299,6 @@ My soul with delight,
 He fills day and night,
 For I am happy in Him.`
         },
-
         {
             title: "Verse 2",
             lyrics: `He sought me so long ere I knew Him,
@@ -281,7 +306,6 @@ When wand'ring afar from the fold,
 Safe home in His arms He hath brought me;
 To where there are pleasures untold.`
         },
-
         {
             title: "Chorus 2",
             lyrics: `I am happy in Him,
@@ -290,7 +314,6 @@ My soul with delight,
 He fills day and night,
 For I am happy in Him.`
         },
-
         {
             title: "Verse 3",
             lyrics: `His love and His mercy surround me,
@@ -298,7 +321,6 @@ His grace like a river doth flow;
 His spirit, to guide and to comfort,
 Is with me wherever I go.`
         },
-
         {
             title: "Chorus 3",
             lyrics: `I am happy in Him,
@@ -307,7 +329,10 @@ My soul with delight,
 He fills day and night,
 For I am happy in Him.`
         },
-
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
         {
             title: "Verse 4",
             lyrics: `They say I shall someday be like Him,
@@ -315,7 +340,6 @@ My crass and my burden lay down;
 Till then I will ever be faithful,
 In gathering gems for His crown.`
         },
-
         {
             title: "Chorus 4",
             lyrics: `I am happy in Him,
@@ -324,13 +348,16 @@ My soul with delight,
 He fills day and night,
 For I am happy in Him.`
         },
-
         {
             title: "Amen",
             lyrics: `Amen.`
         }
     ]
 },
+
+// ==========================================
+// HYMN 259 — YORUBA
+// ==========================================
 
 {
     name: "259",
@@ -343,7 +370,6 @@ For I am happy in Him.`
 Ohun Re dun pupo lati gbo,
 Adun ni lati r'oju Re.`
         },
-
         {
             title: "Chorus 1",
             lyrics: `Emi nyo-ninu Re,
@@ -351,7 +377,6 @@ Emi nyo ninu Re,
 Gba gbogbo lo fayo kun okan mi,
 'Tori emi nyo n'nu Re.`
         },
-
         {
             title: "Verse 2",
             lyrics: `O ti pe t'O ti nwa mi kiri,
@@ -359,7 +384,6 @@ Gba gbogbo lo fayo kun okan mi,
 O gbe mi wa sile l'apa Re,
 Nibiti papa tutu wa.`
         },
-
         {
             title: "Chorus 2",
             lyrics: `Emi nyo-ninu Re,
@@ -367,7 +391,6 @@ Emi nyo ninu Re,
 Gba gbogbo lo fayo kun okan mi,
 'Tori emi nyo n'nu Re.`
         },
-
         {
             title: "Verse 3",
             lyrics: `Ire at'anu Re yi mi ka,
@@ -375,7 +398,6 @@ Or'ofe Re nsan bi odo,
 Emi Re nto, o si nse 'tunu,
 O mba mi lo si 'bikibi.`
         },
-
         {
             title: "Chorus 3",
             lyrics: `Emi nyo-ninu Re,
@@ -383,7 +405,10 @@ Emi nyo ninu Re,
 Gba gbogbo lo fayo kun okan mi,
 'Tori emi nyo n'nu Re.`
         },
-
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
         {
             title: "Verse 4",
             lyrics: `Emi y'o dabi Re ni 'jo kan,
@@ -391,7 +416,6 @@ Uno s'eru wu womi kale,
 Titi di 'gbana uno s'oloto,
 Ni sise oso f'ade Re.`
         },
-
         {
             title: "Chorus 4",
             lyrics: `Emi nyo-ninu Re,
@@ -399,188 +423,86 @@ Emi nyo ninu Re,
 Gba gbogbo lo fayo kun okan mi,
 'Tori emi nyo n'nu Re.`
         },
-
         {
             title: "Amin",
             lyrics: `Amin.`
         }
     ]
 },
+    {
+    title: "Introduction",
+    lyrics: `GLORIOUS FREEDOM 10.9.D.
 
-{
-    name: "sunday school",
-    language: "English",
-    items: [
-        {
-            title: "Chorus 1",
-            lyrics: `Wonderful Word of Mighty God
-The Word is a lamp to my feet
-The Word is a light to my way
-Spirit of God, my Teacher be
-Throughout the Sunday School of today
-Teach me, O Lord, I pray.`
-        },
-
-        {
-            title: "Verse 1",
-            lyrics: `Teach me, O Lord, Thy truth to know
-Open my heart, O Lord, I pray,
-Help me to understand Thy Word,
-Teach me, I would be wholly Thine.`
-        },
-
-        {
-            title: "Chorus 2",
-            lyrics: `Wonderful Word of Mighty God
-The Word is a lamp to my feet
-The Word is a light to my way
-Spirit of God, my Teacher be
-Throughout the Sunday School of today
-Teach me, O Lord, I pray.`
-        },
-
-        {
-            title: "Verse 2",
-            lyrics: `Teach me, O Lord, Thy way to know
-That I may never go astray,
-Purge me from sin, O Lord, I pray
-Teach me, I would be wholly Thine.`
-        },
-
-        {
-            title: "Chorus 3",
-            lyrics: `Wonderful Word of Mighty God
-The Word is a lamp to my feet
-The Word is a light to my way
-Spirit of God, my Teacher be
-Throughout the Sunday School of today
-Teach me, O Lord, I pray.`
-        },
-
-        {
-            title: "Verse 3",
-            lyrics: `Teach me, O Lord, nearer to Thee,
-Let me move closer to Your side,
-Oh, daily let me walk with Thee,
-Teach me, I would be wholly Thine.`
-        },
-
-        {
-            title: "Chorus 4",
-            lyrics: `Wonderful Word of Mighty God
-The Word is a lamp to my feet
-The Word is a light to my way
-Spirit of God, my Teacher be
-Throughout the Sunday School of today
-Teach me, O Lord, I pray.`
-        },
-
-        {
-            title: "Verse 4",
-            lyrics: `Teach me, O Lord, Thy will to know
-To do Thy will from day to day,
-More of Your love to others show,
-Teach me, I would be wholly Thine.`
-        },
-
-        {
-            title: "Chorus 5",
-            lyrics: `Wonderful Word of Mighty God
-The Word is a lamp to my feet
-The Word is a light to my way
-Spirit of God, my Teacher be
-Throughout the Sunday School of today
-Teach me, O Lord, I pray.`
-        }
-    ]
+While we were yet sinners Christ died for us.
+Romans 5:8`
 },
 
 {
-    name: "sunday school",
-    language: "Yoruba",
-    items: [
-        {
-            title: "Chorus 1",
-            lyrics: `Ìyanu Ọrọ Ọlọ́run,
-Ní fìtílà fún ẹsẹ mi,
-Imọ́lẹ̀ s'ipa ọ̀nà mi;
-Ẹ̀mí Ọ̀run j'Olukọ mi,
-N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
-Kọ mi Olúwa.`
-        },
+    title: "Verse 1",
+    lyrics: `Once I was bound by sin's galling fetters;
+Chained like a slave I struggled in vain,
+But I received a glorious freedom;
+When Jesus broke my fetters in twain.`
+},
 
-        {
-            title: "Verse 1",
-            lyrics: `Kọmi Jésù l'Otitọ Rẹ
-Ṣími ni ye Olúwa mi;
-Jọ̀wọ́ fi ọ̀rọ̀ Rẹ ye mi
-Kọmi k'emi le jẹ tiRẹ`
-        },
+{
+    title: "Chorus 1",
+    lyrics: `Glorious freedom, wonderful freedom;
+No more in chains of sin repine,
+Jesus the glorious Emancipator;
+Now and for ever life shall be mine.`
+},
 
-        {
-            title: "Chorus 2",
-            lyrics: `Ìyanu Ọrọ Ọlọ́run,
-Ní fìtílà fún ẹsẹ mi,
-Imọ́lẹ̀ s'ipa ọ̀nà mi;
-Ẹ̀mí Ọ̀run j'Olukọ mi,
-N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
-Kọ mi Olúwa.`
-        },
+{
+    title: "Verse 2",
+    lyrics: `Freedom from all the carnal affections,
+Freedom from envy hatred and strife;
+Freedom from vain and worldly ambitions,
+Freedom from all that saddened my life.`
+},
 
-        {
-            title: "Verse 2",
-            lyrics: `Kọmi Jésù, ní ọ̀nà Rẹ
-K'emi máṣe tún ṣákolọ
-Jọ̀wọ́ gbàmí lọ́wọ́ ẹsẹ,
-Kọmi k'emi le jẹ tiRẹ.`
-        },
+{
+    title: "Chorus 2",
+    lyrics: `Glorious freedom, wonderful freedom;
+No more in chains of sin repine,
+Jesus the glorious Emancipator;
+Now and for ever life shall be mine.`
+},
 
-        {
-            title: "Chorus 3",
-            lyrics: `Ìyanu Ọrọ Ọlọ́run,
-Ní fìtílà fún ẹsẹ mi,
-Imọ́lẹ̀ s'ipa ọ̀nà mi;
-Ẹ̀mí Ọ̀run j'Olukọ mi,
-N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
-Kọ mi Olúwa.`
-        },
+{
+    title: "Verse 3",
+    lyrics: `Freedom from pride and all sinful follies,
+Freedom from love and glitter of gold;
+Freedom from evil temper and anger;
+Glorious freedom, rapture untold.`
+},
 
-        {
-            title: "Verse 3",
-            lyrics: `Kọmi Jésù kí nsumọ Ọ
-Ki ntunbọ sunmọ ọdọ Rẹ
-Ki nba Ọ rin lojojumọ
-Kọmi k'emi le jẹ tiRẹ.`
-        },
+{
+    title: "Chorus 3",
+    lyrics: `Glorious freedom, wonderful freedom;
+No more in chains of sin repine,
+Jesus the glorious Emancipator;
+Now and for ever life shall be mine.`
+},
 
-        {
-            title: "Chorus 4",
-            lyrics: `Ìyanu Ọrọ Ọlọ́run,
-Ní fìtílà fún ẹsẹ mi,
-Imọ́lẹ̀ s'ipa ọ̀nà mi;
-Ẹ̀mí Ọ̀run j'Olukọ mi,
-N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
-Kọ mi Olúwa.`
-        },
+{
+    title: "Interlude",
+    lyrics: `Interlude`
+},
 
-        {
-            title: "Verse 4",
-            lyrics: `Kọmi Jésù, kí nmọ 'fẹ Re
-Kí ńṣe' fẹ Rẹ lojojumọ
-Kí nfi 'fẹ Rẹ hàn ẹlòmi,
-Kọmi k'emi le jẹ tiRẹ.`
-        },
+{
+    title: "Verse 4",
+    lyrics: `Freedom from fear with all of its torments;
+Freedom from care with all of its pain,
+Freedom in Christ my blessed Redeemer;
+He who has rent my fetters in twain.`
+},
 
-        {
-            title: "Chorus 5",
-            lyrics: `Ìyanu Ọrọ Ọlọ́run,
-Ní fìtílà fún ẹsẹ mi,
-Imọ́lẹ̀ s'ipa ọ̀nà mi;
-Ẹ̀mí Ọ̀run j'Olukọ mi,
-N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
-Kọ mi Olúwa.`
-        }
-    ]
+{
+    title: "Chorus 4",
+    lyrics: `Glorious freedom, wonderful freedom;
+No more in chains of sin repine,
+Jesus the glorious Emancipator;
+Now and for ever life shall be mine.`
 }
-
 ];
