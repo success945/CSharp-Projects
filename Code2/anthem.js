@@ -270,7 +270,7 @@ N'ile Ẹ̀kọ́ Ọjọ Ìsimi òní,
 Kọ mi Olúwa.`
             }
         ]
-    }
+    },
 
     // ==========================================
     // SECTION 4: HYMNS
@@ -430,15 +430,19 @@ Gba gbogbo lo fayo kun okan mi,
     ]
 },
     {
-    title: "Introduction",
-    lyrics: `GLORIOUS FREEDOM 10.9.D.
+    name: "271",
+    language: "English",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `GLORIOUS FREEDOM 10.9.D.
 
 While we were yet sinners Christ died for us.
 Romans 5:8`
-},
+        },
 
-{
-    title: "Verse 1",
+        {
+            title: "Verse 1",
     lyrics: `Once I was bound by sin's galling fetters;
 Chained like a slave I struggled in vain,
 But I received a glorious freedom;
@@ -504,5 +508,7 @@ He who has rent my fetters in twain.`
 No more in chains of sin repine,
 Jesus the glorious Emancipator;
 Now and for ever life shall be mine.`
+}
+    ]
 }
 ];
