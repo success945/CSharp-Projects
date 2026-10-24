@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Church Lyrics Control</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #181b20;
+            color: white;
+            min-height: 100vh;
+        }
+
+        .control {
+            width: 100%;
+            max-width: 900px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 18px;
+            font-size: 25px;
+        }
+
+        #searchBox {
+            width: 100%;
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 9px;
+            border: 2px solid #444;
+            background: #0e1013;
+            color: white;
+            outline: none;
+        }
+
+        #searchBox:focus {
+            border-color: #aaa;
+        }
+
+        #searchInfo {
+            margin: 10px 2px 18px;
+            color: #999;
+            font-size: 14px;
+        }
+
+        .result {
+            background: #22262d;
+            border: 1px solid #343a44;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 12px;
+            cursor: pointer;
+        }
+
+        .result:hover {
+            background: #2b3039;
+        }
+
+                .result-heading {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            font-size: 19px;
+            font-weight: bold;
+            margin-bottom: 11px;
+        }
+
+        .score {
+            white-space: nowrap;
+        }
+
+        .label {
+            color: #999;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+
+        .opening {
+            line-height: 1.45;
+            white-space: pre-line;
+        }
+
+        .best-match {
+            margin-top: 12px;
+            padding-top: 10px;
+            border-top: 1px solid #3a3f48;
+            color: #d4d4d4;
+            line-height: 1.45;
+        }
+
+        #overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .75);
+            z-index: 100;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .popup {
+            width: min(700px, 90vw);
+            max-height: 88vh;
+            background: #1c2026;
+            border: 1px solid #444;
+            border-radius: 14px;
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #popupTitle {
+            margin: 0 0 15px;
+        }
+
+        #popupLyrics {
+            background: #0d0f12;
+            border-radius: 8px;
+            padding: 18px;
+            white-space: pre-line;
+            overflow-y: auto;
+            line-height: 1.55;
+            flex: 1;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 17px;
+        }
+
+        .buttons button {
+            padding: 12px 22px;
+            border: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #cancelButton {
+            background: #444;
+            color: white;
+        }
+
+        #displayButton {
+            background: white;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="control">
+
+    <h1>Church Lyrics</h1>
+
+    <input
+        id="searchBox"
+        type="text"
+        placeholder="Type any words from the song..."
+        autocomplete="off"
+        autofocus
+    >
+
+    <div id="searchInfo">
+        Start typing to find a song.
+    </div>
+
+    <div id="results"></div>
+
+    <hr style="margin:40px 0;">
+
+<section id="anthemSection">
+
+    <h2>Hymns & Choir Anthem</h2>
+
+    <input
+        type="text"
+        id="anthemSearch"
+        placeholder="Enter hymn number or anthem"
+        autocomplete="off"
+    >
+
+    <p id="anthemInfo">
+        Enter a hymn number or type anthem.
+    </p>
+
+    <div id="anthemResults"></div>
+
+</section>
+
+</div>
+
+<div id="overlay">
+
+    <div class="popup">
+
+        <h2 id="popupTitle"></h2>
+
+        <div id="popupLyrics"></div>
+
+        <div class="buttons">
+
+            <button id="cancelButton">
+                Cancel
+            </button>
+
+            <button id="displayButton">
+                DISPLAY
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="songs.js"></script>
+<script src="app.js"></script>
+<script src="anthem.js"></script>
+<script src="anthem-app.js"></script>
+
+</body>
+</html>

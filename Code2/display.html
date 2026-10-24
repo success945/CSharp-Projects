@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Church Lyrics Display</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            color: white;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #lyrics {
+    width: 92%;
+    height: 92vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    white-space: pre-line;
+
+    font-size: 42px;
+    line-height: 1.3;
+    font-weight: bold;
+
+    overflow: hidden;
+}
+
+        #waiting {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="lyrics">
+        <span id="waiting">
+            Waiting for lyrics...
+        </span>
+    </div>
+
+    <script>
+        const lyrics =
+            document.getElementById("lyrics");
+
+       function updateDisplay() {
+
+    const text =
+        localStorage.getItem(
+            "churchDisplayLyrics"
+        );
+
+    if (!text) {
+        return;
+    }
+
+    lyrics.textContent = text;
+
+    fitLyrics();
+}
+
+
+function fitLyrics() {
+
+    let fontSize = 42;
+
+    lyrics.style.fontSize =
+        fontSize + "px";
+
+    while (
+        (
+            lyrics.scrollHeight >
+            lyrics.clientHeight
+            ||
+            lyrics.scrollWidth >
+            lyrics.clientWidth
+        )
+        &&
+        fontSize > 18
+    ) {
+
+        fontSize--;
+
+        lyrics.style.fontSize =
+            fontSize + "px";
+    }
+}
+
+        updateDisplay();
+
+        window.addEventListener(
+            "storage",
+            function (event) {
+                if (
+                    event.key ===
+                    "churchDisplayLyrics"
+                ) {
+                    updateDisplay();
+                }
+            }
+        );
+    </script>
+
+</body>
+</html>
