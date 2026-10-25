@@ -510,5 +510,98 @@ Jesus the glorious Emancipator;
 Now and for ever life shall be mine.`
 }
     ]
+},
+    // ==========================================
+// HYMN 271 — YORUBA
+// ==========================================
+
+{
+    name: "271",
+    language: "Yoruba",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `10.9.10.9.D.
+
+Nigbati awa je elese, Kristi ku fun wa.
+Rom. 5:8.
+
+Lekan mo wa ninu ide ese`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Lekan mo wa ninu ide ese,
+Bi eru nko si le ja 'jabo;
+Sugbon mo ri idande ologo,
+Gba Jesu ja ide mi sonu.`
+        },
+
+        {
+            title: "Chorus 1",
+            lyrics: `Om'nira ologo at'iyanu,
+Nko si ninu ide ese mo,
+Jesu Oludande at'ologo,
+Y'O je t'emi loni, titi lae.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `Om'nira kuro n'nu ife ara,
+Owu, ikorira on ija;
+Om'nira kuro n'nu asan aye,
+Ati gbogbo ikoro aye.`
+        },
+
+        {
+            title: "Chorus 2",
+            lyrics: `Om'nira ologo at'iyanu,
+Nko si ninu ide ese mo,
+Jesu Oludande at'ologo,
+Y'O je t'emi loni, titi lae.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `Om'nira low' ese igberaga,
+Ife owo egbin on wura,
+Ero ibi at' oro ibinu,
+Om'nira ayo at'ologo.`
+        },
+
+        {
+            title: "Chorus 3",
+            lyrics: `Om'nira ologo at'iyanu,
+Nko si ninu ide ese mo,
+Jesu Oludande at'ologo,
+Y'O je t'emi loni, titi lae.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Om'nira lowo 'beru on 'rora,
+Lowo aniyan at'edun re,
+Om'nira n'nu Krist' Olurapada,
+Eni t'O ja ide mi sonu.`
+        },
+
+        {
+            title: "Chorus 4",
+            lyrics: `Om'nira ologo at'iyanu,
+Nko si ninu ide ese mo,
+Jesu Oludande at'ologo,
+Y'O je t'emi loni, titi lae.`
+        },
+
+        {
+            title: "Amin",
+            lyrics: `Amin.`
+        }
+    ]
 }
 ];
