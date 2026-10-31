@@ -276,7 +276,143 @@ Kọ mi Olúwa.`
     // SECTION 4: HYMNS
     // To be added next
     // ==========================================
+
+    // ==========================================
+// HYMN 66 — ENGLISH
 // ==========================================
+
+{
+    name: "66",
+    language: "English",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `JOYFULL PRAISE 12.10.12.10.D.
+
+Praise ye the Lord.
+Psalm 108:1
+
+Praise Him, praise Him,
+Jesus our blessed Redeemer`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Praise Him, praise Him, Jesus our blessed Redeemer,
+Sing, O earth, His wonderful; love proclaim;
+Hail Him! hail Him! highest archangels in glory,
+Strength and honour give to His holy name,
+Like a shepherd, Jesus will guard His children,
+In His arms He carries them all day long;
+O ye saints that dwell on the mountain of Zion,
+Praise Him! praise Him! ever in joyful song.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `Praise Him, praise Him, Jesus our blessed Redeemer,
+For our sins He suffered and bled and died;
+He, our rock, our hope of eternal salvation,
+Hail Him! hail Him! Jesus the Crucified;
+Loving Saviour, meekly enduring sorrow,
+Crowned with thorns that cruelly pierced His brow;
+Once for us rejected, despised and forsaken,
+Prince of Glory, ever triumphant now.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `Praise Him, praise Him Jesus our blessed Redeemer,
+Heavenly portals loud with hosannas ring;
+Jesus, Saviour, reigneth for ever and ever,
+Crown Him, crown Him,
+Prophet and Priest and King!
+Death is vanquished!
+Tell it with joy, ye faithful,
+Where is now thy victory, boasting grave?
+Jesus lives! no longer thy portals are cheerless,
+Jesus lives, the mighty and strong to save.`
+        },
+
+        {
+            title: "Amen",
+            lyrics: `Amen.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 66 — YORUBA
+// ==========================================
+
+{
+    name: "66",
+    language: "Yoruba",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `12.10.12.10.D.
+
+E fi iyin fun Oluwa.
+OD. 106:1
+
+Fi iyin fun Jesu, Olurapada wa`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Fi iyin fun Jesu, Olurapada wa,
+Ki aye k’ okiki ife Re nla,
+Fi iyin fun! Eyin Angeli ologo,
+F’ola at’ogo fun oruko Re;
+B’Olus’agutan, Jesu y’o to Omo Re,
+L’apa Re l’o ngbe won le l’ojojo;
+Eyin eniyan mimo ti ngb’oke Sion;
+Fi iyin fun pelu orin ayo.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `Fi iyin fun, Jesu Olurapda wa,
+Fun wa, O t’eje Re sile, O ku,
+On ni apata, ati reti ‘gbala wa,
+Yin Jesu ti a kan m’agbalebu;
+Olugbala t’O f’ara da irora nla,
+Ti a fi ade egun de l’ori,
+Eniti a pa nitori awa eda,
+Oba ogo njoba titi laelae.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `Fi iyin fun, Jesu Olurapada wa,
+Ki ariwo iyin gba orun kan,
+Jesu Oluwa njoba lae ati laelae,
+Se l’Oba gbogb’ eyin alagbara;
+A segun iku; fi ayo royin na ka,
+Isegun re ha da, isa oku?
+Jesu ye ko tun si wahala fun wa mo,
+’Tori O l’agbara lati gbala.`
+        },
+
+        {
+            title: "Amin",
+            lyrics: `Amin.`
+        }
+    ]
+},
+    
+    // ==========================================
 // HYMN 259 — ENGLISH
 // ==========================================
 
