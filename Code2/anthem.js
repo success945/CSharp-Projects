@@ -413,6 +413,194 @@ Jesu ye ko tun si wahala fun wa mo,
 },
     
     // ==========================================
+// HYMN 67 — ENGLISH
+// ==========================================
+
+{
+    name: "67",
+    language: "English",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `THE BLOOD OF MY REDEEMER 10.11.10.11 and Ref.
+
+I will sing of the mercies of the Lord for ever.
+Ps. 89:1
+
+I will praise the Lord for His love to me`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `I will praise the Lord for His love to me;
+I am washed in the blood of my Redeemer,
+In the fount that flows at the cross so free;
+I am washed in the blood of my Redeemer.`
+        },
+
+        {
+            title: "Chorus 1",
+            lyrics: `Glory, glory, glory to the Lamb,
+I am sav’d from sin and He makes me what I am;
+Oh, glory, glory, glory to the Lamb,
+I am washed in the blood of my Redeemer.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `I am saved by grace and to Him bro't near;
+I am washed in the blood of my Redeemer;
+I would sing so loud that the world might hear,
+I am washed in the blood of my Redeemer.`
+        },
+
+        {
+            title: "Chorus 2",
+            lyrics: `Glory, glory, glory to the Lamb,
+I am sav’d from sin and He makes me what I am;
+Oh, glory, glory, glory to the Lamb,
+I am washed in the blood of my Redeemer.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `What a constant peace in my heart I feel,
+I am washed in the blood of my Redeemer;
+There’s a holy joy I can ne’er reveal,
+I am washed in the blood of my Redeemer.`
+        },
+
+        {
+            title: "Chorus 3",
+            lyrics: `Glory, glory, glory to the Lamb,
+I am sav’d from sin and He makes me what I am;
+Oh, glory, glory, glory to the Lamb,
+I am washed in the blood of my Redeemer.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `I will lift my voice while on earth I stay,
+I am washed in the blood of my Redeemer;
+Then my soul shall sing in the realms of day;
+I am washed in the blood of my Redeemer.`
+        },
+
+        {
+            title: "Chorus 4",
+            lyrics: `Glory, glory, glory to the Lamb,
+I am sav’d from sin and He makes me what I am;
+Oh, glory, glory, glory to the Lamb,
+I am washed in the blood of my Redeemer.`
+        },
+
+        {
+            title: "Amen",
+            lyrics: `Amen.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 67 — YORUBA
+// ==========================================
+
+{
+    name: "67",
+    language: "Yoruba",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `10.11.10.11 & Ref.
+
+Emi o ma korin anu Oluwa laelae.
+OD 89:1
+
+Em'o yin Oluwa fun ife Re`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Em'o yin Oluwa fun ife Re,
+A we mi nin' eje Olurapada,
+Eje na t'o nsan nib'agbelebu,
+A we mi nin' eje Olurapada.`
+        },
+
+        {
+            title: "Chorus 1",
+            lyrics: `Ogo, Ogo fun Od'agutan,
+O gba mi lowo ese mo si di mimo,
+Ogo, Ogo, Ogo, f'Od'agutan,
+A we mi nin' eje Olurapada.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `Ore-Ofe mu mi sunnm' odo Re,
+A we mi nin' eje Olurapada,
+Em'o korin soke, aye y'o gbo,
+A we mi nin' eje Olurapada.`
+        },
+
+        {
+            title: "Chorus 2",
+            lyrics: `Ogo, Ogo fun Od'agutan,
+O gba mi lowo ese mo si di mimo,
+Ogo, Ogo, Ogo, f'Od'agutan,
+A we mi nin' eje Olurapada.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `Alafia wo l'o to yi l'okan mi?
+A we mi nin' eje Olurapada;
+Ayo mimo na ko se f'enu so,
+A we mi nin' eje Olurapada.`
+        },
+
+        {
+            title: "Chorus 3",
+            lyrics: `Ogo, Ogo fun Od'agutan,
+O gba mi lowo ese mo si di mimo,
+Ogo, Ogo, Ogo, f'Od'agutan,
+A we mi nin' eje Olurapada.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Emi o ma gb'ohun iyin s'oke,
+A we mi nin' eje Olurapada,
+Okan mi y'o ma korin lojojo,
+A we mi nin' eje Olurapada.`
+        },
+
+        {
+            title: "Chorus 4",
+            lyrics: `Ogo, Ogo fun Od'agutan,
+O gba mi lowo ese mo si di mimo,
+Ogo, Ogo, Ogo, f'Od'agutan,
+A we mi nin' eje Olurapada.`
+        },
+
+        {
+            title: "Amin",
+            lyrics: `Amin.`
+        }
+    ]
+},
+    
+    // ==========================================
 // HYMN 259 — ENGLISH
 // ==========================================
 
