@@ -285,6 +285,13 @@ Kọ mi Olúwa.`
     language: "English",
     items: [
         {
+    title: "Introduction",
+    lyrics: `I AM HAPPY IN HIM 9.8.9.8.
+
+Rejoice in the Lord always, again I say rejoice.
+Philippians 4:4`
+},
+        {
             title: "Verse 1",
             lyrics: `My soul is so happy in Jesus,
 For he is so precious to me,
@@ -363,6 +370,15 @@ For I am happy in Him.`
     name: "259",
     language: "Yoruba",
     items: [
+        {
+    title: "Introduction",
+    lyrics: `9.8.9.8. & Ref.
+
+E ma yo ninu Oluwa nigba gbogbo,
+mo si tun wi, E ma yo.
+
+2 Fili. 4:4`
+},
         {
             title: "Verse 1",
             lyrics: `Okan mi nyo ninu Oluwa,
@@ -508,7 +524,11 @@ He who has rent my fetters in twain.`
 No more in chains of sin repine,
 Jesus the glorious Emancipator;
 Now and for ever life shall be mine.`
-}
+},
+        {
+            title: "Amen",
+            lyrics: `Amen.`
+        }
     ]
 },
     // ==========================================
