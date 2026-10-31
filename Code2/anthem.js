@@ -601,6 +601,194 @@ A we mi nin' eje Olurapada.`
 },
     
     // ==========================================
+// HYMN 69 — ENGLISH
+// ==========================================
+
+{
+    name: "69",
+    language: "English",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `BLESSED BE THE NAME L.M.
+
+The Lord's name is to be praised.
+Ps. 113:3
+
+How sweet the name of Jesus sounds`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `How sweet the name of Jesus sounds,
+Blessed be the name of the Lord;
+It soothes my sorrows heals my wounds,
+Blessed be the name of the Lord.`
+        },
+
+        {
+            title: "Chorus 1",
+            lyrics: `Blessed be the name, blessed be the name,
+Blessed be the name of the Lord;
+Blessed be the name, blessed be the name,
+Blessed be the name of the Lord.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `It makes the wounded spirit whole,
+Blessed be the name of the Lord;
+'Tis manna to the hungry soul,
+Blessed be the name of the Lord.`
+        },
+
+        {
+            title: "Chorus 2",
+            lyrics: `Blessed be the name, blessed be the name,
+Blessed be the name of the Lord;
+Blessed be the name, blessed be the name,
+Blessed be the name of the Lord.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `It soothes the troubled sinner's breast,
+Blessed be the name of the Lord;
+It gives the weary sweetest rest,
+Blessed be the name of the Lord.`
+        },
+
+        {
+            title: "Chorus 3",
+            lyrics: `Blessed be the name, blessed be the name,
+Blessed be the name of the Lord;
+Blessed be the name, blessed be the name,
+Blessed be the name of the Lord.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Then will I tell the sinners round,
+Blessed be the name of the Lord;
+What a dear Saviour I have found;
+Blessed be the name of the Lord.`
+        },
+
+        {
+            title: "Chorus 4",
+            lyrics: `Blessed be the name, blessed be the name,
+Blessed be the name of the Lord;
+Blessed be the name, blessed be the name,
+Blessed be the name of the Lord.`
+        },
+
+        {
+            title: "Amen",
+            lyrics: `Amen.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 69 — YORUBA
+// ==========================================
+
+{
+    name: "69",
+    language: "Yoruba",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `L.M & Ref
+
+Oruko Oluwa ni ki ayin.
+OD. 113:3
+
+B'oruko Jesu ti dun to`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `B'oruko Jesu ti dun to,
+Ogo ni fun Oruko Re,
+O tan banuje at'ogbe;
+Ogo ni fun Oruko Re.`
+        },
+
+        {
+            title: "Chorus 1",
+            lyrics: `Ogo f'oko Re, Ogo f'oko Re,
+Ogo f'oruko Oluwa,
+Ogo f'oko Re, Ogo f'oko Re,
+Ogo f'oruko Oluwa.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `O wo okan to gb'ogbe san,
+Ogo ni fun Oruko Re,
+Onje ni f'okan t'ebi npa,
+Ogo ni fun Oruko Re.`
+        },
+
+        {
+            title: "Chorus 2",
+            lyrics: `Ogo f'oko Re, Ogo f'oko Re,
+Ogo f'oruko Oluwa,
+Ogo f'oko Re, Ogo f'oko Re,
+Ogo f'oruko Oluwa.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `O tan aniyan elese,
+Ogo ni fun oruko Re;
+O fun alare ni simi,
+Ogo ni fun oruko Re.`
+        },
+
+        {
+            title: "Chorus 3",
+            lyrics: `Ogo f'oko Re, Ogo f'oko Re,
+Ogo f'oruko Oluwa,
+Ogo f'oko Re, Ogo f'oko Re,
+Ogo f'oruko Oluwa.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Nje un o ro'hin na f'elese,
+Ogo ni fun Oruko Re,
+Pe mo ti ri Olugbala;
+Ogo ni fun Oruko Re.`
+        },
+
+        {
+            title: "Chorus 4",
+            lyrics: `Ogo f'oko Re, Ogo f'oko Re,
+Ogo f'oruko Oluwa,
+Ogo f'oko Re, Ogo f'oko Re,
+Ogo f'oruko Oluwa.`
+        },
+
+        {
+            title: "Amin",
+            lyrics: `Amin.`
+        }
+    ]
+},
+    
+    // ==========================================
 // HYMN 259 — ENGLISH
 // ==========================================
 
