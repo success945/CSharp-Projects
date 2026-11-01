@@ -787,6 +787,146 @@ Ogo f'oruko Oluwa.`
         }
     ]
 },
+
+// ==========================================
+// HYMN 71 — ENGLISH
+// ==========================================
+
+{
+    name: "71",
+    language: "English",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `INNOCENTS 7.7.7.7
+
+For His mercy endureth for ever.
+Ps. 136:1
+
+Let us with a gladsome mind`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Let us with a gladsome mind,
+Praise the Lord, for He is kind;
+For His mercies still endure,
+Ever faithful, ever sure.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `He, with all-commanding might,
+Filled the new-made world with light;
+For His mercies still endure,
+Ever faithful, ever sure.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `All things living he doth feed,
+His full hand supplies their need:
+For His mercies still endure,
+Ever faithful, ever sure.`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `He His chosen race did bless,
+In the wasteful wilderness:
+For His mercies still endure,
+Ever faithful, ever sure.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 5",
+            lyrics: `Let us then with gladsome mind;
+Praise the Lord, for He is kind:
+For His mercies still endure,
+Ever faithful, ever sure.`
+        },
+
+        {
+            title: "Amen",
+            lyrics: `Amen.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 71 — YORUBA
+// ==========================================
+
+{
+    name: "71",
+    language: "Yoruba",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `7.7.7.7
+
+Nitori ti anu Re duro laelae.
+OD 136:1
+
+Eje k'a f'inu didun`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Eje k'a f'inu didun,
+Yin Oluwa Olore,
+Anu Re, O wa titi,
+Lododo dajudaju.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `On nipa agbara Re,
+F' imole s'aye titun,
+Anu Re, O wa titi,
+Lododo dajudaju.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `O mbo gbogb' eda 'laye,
+O npese fun aini won,
+Anu Re, O wa titi;
+Lododo dajudaju.`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `O bukun ayanfe Re,
+Li aginju iparun,
+Anu Re, O wa titi,
+Lododo dajudaju.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 5",
+            lyrics: `Eje k'a f'inu didun,
+Yin Oluwa Olore,
+Anu Re, O wa titi,
+Lododo dajudaju.`
+        },
+
+        {
+            title: "Amin",
+            lyrics: `Amin.`
+        }
+    ]
+},
     
     // ==========================================
 // HYMN 259 — ENGLISH
