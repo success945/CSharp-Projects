@@ -5,59 +5,118 @@ const anthemFolders = [
     // ==========================================
 
     {
-        name: "anthem",
-        items: [
-            {
-                title: "Verse 1",
-                lyrics: `Oluwa dide
-Oluwa o, dide o
-Dide o, dide o
-Ko wa fi agbara re han
+    name: "Glory to God in the Highest",
+    language: "English",
+    items: [
+        {
+            title: "Refrain 1",
+            lyrics: `Glory to God in the highest
+Glory to God in the highest
+Hallelujah! Hallelujah!
+Glory to God in the Highest
+Hallelujah! (Repeat)`
+        },
 
-×2`
-            },
+        {
+            title: "Verse 1",
+            lyrics: `You are the Light in the darkness
+You are the Light in the darkness
+Hallelujah! Hallelujah!
+You are the Light in the darkness
+Hallelujah! (Repeat)`
+        },
 
-            {
-                title: "Verse 2",
-                lyrics: `O God of signs and wonders
-Saviour Redeemer
-Come and manifest Your power
-Dide o, dide o
+        {
+            title: "Verse 2",
+            lyrics: `You bring beauty out of ashes
+You bring beauty out of ashes
+Hallelujah! Hallelujah!
+You bring beauty out of ashes
+Hallelujah! (Repeat)`
+        },
 
-×2`
-            },
+        {
+            title: "Verse 3",
+            lyrics: `He’s the fourth Man in the Fire
+You are the fourth Man in the Fire
+Hallelujah! Hallelujah!
+You are the fourth Man in the Fire
+Hallelujah! (Repeat)`
+        },
 
-            {
-                title: "Interlude",
-                lyrics: `Interlude`
-            },
+        {
+            title: "Refrain 2",
+            lyrics: `Glory to God in the highest
+Glory to God in the highest
+Hallelujah! Hallelujah!
+Glory to God in the Highest
+Hallelujah! (Repeat)`
+        },
 
-            {
-                title: "Exhortation",
-                lyrics: `Exhortation`
-            },
+        {
+            title: "Verse 4",
+            lyrics: `You are the Lion of Judah
+You are the Lion of Judah
+Hallelujah! Hallelujah!
+You are the Lion of Judah
+Hallelujah!`
+        },
 
-            {
-                title: "Spoken Interlude",
-                lyrics: `Spoken Interlude`
-            },
+        {
+            title: "Verse 5",
+            lyrics: `You are the Fountain in the desert
+He is the Fountain in the desert
+Hallelujah! Hallelujah!
+You are the Fountain in the desert
+Hallelujah!`
+        },
 
-            {
-                title: "Ministration",
-                lyrics: `Ministration`
-            },
+        {
+            title: "Verse 6",
+            lyrics: `You are the God of Signs and Wonders
+You are the God of Signs and Wonders
+Hallelujah! Hallelujah!
+You are the God of Signs and Wonders
+Hallelujah!`
+        },
 
-            {
-                title: "Spoken Word",
-                lyrics: `Spoken Word`
-            },
+        {
+            title: "Verse 7",
+            lyrics: `You will never ever fail me
+You will never ever fail me
+Hallelujah! Hallelujah!
+You will never ever fail me
+Hallelujah!`
+        },
 
-            {
-                title: "Prophetic Exhortation",
-                lyrics: `Prophetic Exhortation`
-            }
-        ]
-    },
+        {
+            title: "Verse 8",
+            lyrics: `You have never ever failed me
+You have never ever failed me
+Hallelujah! Hallelujah!
+You have never ever failed me
+Hallelujah!`
+        },
+
+        {
+            title: "Verse 9",
+            lyrics: `Your Mercy is forever
+Your Mercy is forever
+Hallelujah! Hallelujah!
+Your Mercy is forever
+Hallelujah!`
+        },
+
+        {
+            title: "Refrain 3",
+            lyrics: `Glory to God in the highest
+Glory to God in the highest
+Hallelujah! Hallelujah!
+Glory to God in the Highest
+Hallelujah! (Repeat)`
+        }
+    ]
+},
 
 
     // ==========================================
