@@ -95,8 +95,27 @@
         const lyrics =
             document.getElementById("lyrics");
 
+        const scrollingLyrics =
+    document.getElementById("scrollingLyrics");
+
+function applyDisplayMode() {
+    const mode =
+        localStorage.getItem("churchDisplayMode") || "normal";
+
+    if (mode === "scrolling") {
+        lyrics.style.display = "none";
+        scrollingLyrics.style.display = "block";
+    } else {
+        scrollingLyrics.style.display = "none";
+        lyrics.style.display = "flex";
+        fitLyrics();
+    }
+}
+        
        function updateDisplay() {
 
+           applyDisplayMode();
+           
     const text =
         localStorage.getItem(
             "churchDisplayLyrics"
@@ -140,17 +159,15 @@ function fitLyrics() {
 
         updateDisplay();
 
-        window.addEventListener(
-            "storage",
-            function (event) {
-                if (
-                    event.key ===
-                    "churchDisplayLyrics"
-                ) {
-                    updateDisplay();
-                }
-            }
-        );
+        window.addEventListener("storage", function (event) {
+    if (event.key === "churchDisplayLyrics") {
+        updateDisplay();
+    }
+
+    if (event.key === "churchDisplayMode") {
+        applyDisplayMode();
+    }
+});
     </script>
 
 </body>
