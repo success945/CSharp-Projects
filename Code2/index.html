@@ -263,6 +263,33 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+        #displayModeControl {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding: 14px;
+    background: #22262d;
+    border: 1px solid #343a44;
+    border-radius: 10px;
+}
+
+#displayModeControl label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#displayMode {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    background: #0e1013;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 7px;
+    font-size: 16px;
+    }
     </style>
 </head>
 
@@ -271,6 +298,15 @@
 <div class="control">
 
     <h1>Church Lyrics</h1>
+
+    <div id="displayModeControl">
+    <label for="displayMode">Display Mode:</label>
+
+    <select id="displayMode">
+        <option value="normal">Normal Display</option>
+        <option value="scrolling">Scrolling Display</option>
+    </select>
+    </div>
 
     <input
         id="searchBox"
