@@ -929,6 +929,502 @@ Lododo dajudaju.`
 },
     
     // ==========================================
+// HYMN 76 — ENGLISH
+// ==========================================
+
+{
+    name: "76",
+    language: "English",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `HANOVER L.M.
+
+O Lord my God, Thou art very great.
+Ps. 104:1b
+
+O worship the King`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `O worship the King,
+All glorious above;
+O gratefully sing,
+His pow'r and His love;
+Our shield and defender,
+The ancient of days;
+Pavilion'd in splendour,
+And girded with praise.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `O tell of His might,
+O sing of his grace,
+Whose robe is the light,
+Whose canopy space;
+His chariots of wrath,
+The deep thunder- clouds form,
+And dark is His path,
+On the wings of the storm.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `The earth with its store;
+Of wonders untold,
+Almighty! Thy pow'r;
+Hath founded of old,
+Hath establish'd it fast,
+By a changeless decree,
+And round it hath cast,
+Like a mantle, the sea.`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Thy bountiful care;
+What tongue can recite?
+It breathes in the air,
+It shines in the light,
+It streams from the hills,
+It descends to the plain,
+And sweetly distils,
+In the dew and the rain.`
+        },
+
+        {
+            title: "Verse 5",
+            lyrics: `Frail children of dust,
+And feeble as frail,
+In Thee do we trust,
+Nor find Thee to fail;
+Thy mercies how tender,
+How firm to the end,
+Our Maker, Defender,
+Redeemer, and Friend!`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 6",
+            lyrics: `O measureless Might!
+Ineffable Love!
+While angels delight,
+To hymn Thee above,
+The humbler creation,
+Though feeble their lays,
+With true adoration,
+Shall sing to Thy praise.`
+        },
+
+        {
+            title: "Amen",
+            lyrics: `Amen.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 76 — YORUBA
+// ==========================================
+
+{
+    name: "76",
+    language: "Yoruba",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `10.10.11.11
+
+Oluwa, Olorun mi, Iwo tobi jojo.
+OD. 104:1
+
+E wole f'Oba, Ologo, julo`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `E wole f'Oba, Ologo, julo,
+E korin ipa ati ife Re;
+Alabo wa ni at' Eni igbani,
+O ngbe 'nu ogo, Eleru ni iyin.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `E so t'ipa Re, e so t'ore Re;
+'Mole l'aso Re, gobi Re orun,
+Ara ti nsan ni keke 'binu Re je,
+Ipa ona Re ni a ko si le mo.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `Aye yi pelu ekun 'yanu Re,
+Olorun! agbara Re l'o da won,
+O fi idi re mule, ko si le yi;
+O si f'okun se aso igunwa Re.`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Enu ha le so ti itoju Re?
+Ninu afefe ninu imole;
+Itoju Re wa nin' odo ti o nsan,
+O si wa ninu iri ati ojo.`
+        },
+
+        {
+            title: "Verse 5",
+            lyrics: `Awa erupẹ aw'alailera,
+'Wọ l'a gbẹkẹle, O ki o da ni,
+Anu Re rorun o si le de opin,
+Eleda, Alabo, Olugbala wa.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 6",
+            lyrics: `'Wo Alagbara Onife julo,
+B'awon angeli ti nyin O loke,
+Be l'awa ẹda Rẹ, niwon t'a le se,
+A o ma juba Rẹ, a o ma yin O.`
+        },
+
+        {
+            title: "Amin",
+            lyrics: `Amin.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 77 — ENGLISH
+// ==========================================
+
+{
+    name: "77",
+    language: "English",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `DIADEM C.M.
+
+For He is Lord of Lords, and King of King.
+Rev. 17:14
+
+All hail the power of Jesus' name`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `All hail the power of Jesus' name,
+Let angels prostrate fall;
+Bring forth the royal diadem,
+To crown Him Lord of all.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `Crown Him, ye martyrs of our God,
+Who from His altar call;
+Extol Him in whose path ye trod,
+And crown Him Lord of all.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `Ye seed of Israel's chosen race,
+Ye ransomed from the fall,
+Hail Him who saves you by His grace,
+And crown Him Lord of all.`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Sinners! whose love can ne'er forget,
+The wormwood and the gall;
+Go spread your trophies at His feet,
+And crown Him Lord of all.`
+        },
+
+        {
+            title: "Verse 5",
+            lyrics: `Let every kindred, every tribe,
+On this terrestrial ball,
+To Him all majesty ascribe,
+And crown Him Lord of all.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 6",
+            lyrics: `O that with yonder sacred throng;
+We at His feet may fall,
+Join in the everlasting song,
+And crown Him Lord of all!`
+        },
+
+        {
+            title: "Amen",
+            lyrics: `Amen.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 77 — YORUBA
+// ==========================================
+
+{
+    name: "77",
+    language: "Yoruba",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `C.M
+
+Oun li Oluwa awon Oluwa ati Oba awon oba.
+Ifi. 17:14
+
+Gbogbo aye, gbe Jesu ga`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Gbogbo aye, gbe Jesu ga,
+Angel', e wole fun;
+E mu ade Oba Re wa,
+Se l'Oba awon Oba.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `E se l'Oba eyin Martyr,
+Ti npe ni pepe Re;
+Gbe gbongbo igi Jese ga,
+Se l'Oba awon oba.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `Eyin iru omo Israel',
+Ti a ti rapada;
+E ki Eni t'o gba yin la,
+Se l'Oba awon oba.`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Gbogbo eniyan ẹlẹsẹ,
+Ranti 'banuje yin;
+E te 'kogun yin s'ese Re,
+Se l'Oba awon oba.`
+        },
+
+        {
+            title: "Verse 5",
+            lyrics: `Ki gbogbo orile ede,
+Ni gbogbo agbaye,
+Ki won ki, kabiyeṣilẹ,
+Se l'Oba awon oba.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 6",
+            lyrics: `A ba le pel' awon t'orun,
+Lati ma juba Re;
+K'a bale jo jumo korin,
+Se l'Oba awon oba.`
+        },
+
+        {
+            title: "Amin",
+            lyrics: `Amin.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 79 — ENGLISH
+// ==========================================
+
+{
+    name: "79",
+    language: "English",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `GOSS 8.7.8.7.4.7.
+
+Bless the lord, O my soul.
+Ps. 103:1
+
+Praise my soul the King of Heaven`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Praise my soul the King of Heaven,
+To His feet thy tribute bring,
+Ransomed, healed, restored, forgiven,
+Who like Thee His praise should sing;
+Praise Him! Praise Him!
+Praise the everlasting King!`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `Praise Him for His grace and favour;
+To Our father in distress;
+Praise Him still the same for ever,
+Slow to chide and swift to bless:
+Praise Him! Praise Him!
+Glorious in His faithfulness.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `Father-like He tends and spares us;
+Well our feeble frame he knows,
+In His hands He gently bears us,
+Rescues us from all our foes;
+Praise Him! Praise Him!
+Widely as His mercy flows.`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `We, like flow'rs its petals bringing!
+Blown by wind, withered away,
+While on earth or with Thee above,
+Our Lord God remain unchanged!
+Praise Him! Praise Him!
+Praise the everlasting King.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 5",
+            lyrics: `Angels, help us to adore Him;
+Ye behold Him face to face!
+Sun and Moon bow down before Him!
+Dwellers all in time and space,
+Praise Him! Praise Him!
+Praise with us the God of grace!`
+        },
+
+        {
+            title: "Amen",
+            lyrics: `Amen.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 79 — YORUBA
+// ==========================================
+
+{
+    name: "79",
+    language: "Yoruba",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `8.7.8.7.4.7
+
+Fi ibukun fun Oluwa, Iwo okan mi.
+OD. 103:1
+
+Okan mi yin Oba orun`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Okan mi yin Oba orun,
+Mu ore wa sode Re,
+'Wọ ta wosan, t'a dariji
+Tal' aba ha yin bi Re?
+Yin Oluwa, Yin Oluwa,
+Yin Oba Ainipekun.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `Yin fun anu t'o fi han
+F'awon Baba 'nu ponju;
+Yin I Okan na ni titi
+O lora lati binu,
+Yin Oluwa, Yin Oluwa,
+Ologo n'nu otito.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `Bi Baba ni O ntoju wa,
+O si mo ailera wa;
+Jeje l'o ngbe wa lapa Re,
+O gba wa lowo ota,
+Yin Oluwa, Yin Oluwa,
+Anu Re, yi aye ka.`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `A ngba b'itanna eweko,
+T'afẹfẹ, t'o si nro,
+'Gbati a nwa ti a si nku,
+Olorun wa bakanna;
+Yin Oluwa, Yin Oluwa,
+Oba Alainipekun.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 5",
+            lyrics: `Angel, e jumo ba wa bo,
+Eyin nri lojukoju,
+Orun, Osupa, e wole;
+Ati gbogbo agbaye,
+E ba wa yin, E ba wa yin,
+Olorun Olotito.`
+        },
+
+        {
+            title: "Amin",
+            lyrics: `Amin.`
+        }
+    ]
+},
+    
+    // ==========================================
 // HYMN 259 — ENGLISH
 // ==========================================
 
