@@ -26,6 +26,17 @@
             justify-content: center;
         }
 
+        #displayContainer {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+        }
+
         #lyrics {
     width: 92%;
     height: 92vh;
@@ -52,10 +63,14 @@
 
 <body>
 
+    <div id="displayContainer">
+
     <div id="lyrics">
         <span id="waiting">
             Waiting for lyrics...
         </span>
+    </div>
+
     </div>
 
     <script>
