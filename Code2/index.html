@@ -162,6 +162,107 @@
             background: white;
             color: black;
         }
+
+        /* FREQUENTLY USED SONGS SIDEBAR */
+
+#frequentToggle {
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+    z-index: 200;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background: #f5c542;
+    color: #111;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+#frequentSidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: min(360px, 90vw);
+    height: 100dvh;
+    background: #20242b;
+    color: white;
+    z-index: 250;
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+    box-shadow: -5px 0 20px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+#frequentSidebar.open {
+    transform: translateX(0);
+}
+
+.frequentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    border-bottom: 1px solid #444;
+}
+
+.frequentHeader h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+#frequentClose {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#frequentList {
+    padding: 15px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.frequentSong,
+.frequentVerse {
+    margin-bottom: 10px;
+    padding: 12px;
+    background: #303640;
+    border-radius: 8px;
+}
+
+.frequentSongButton {
+    width: 100%;
+    padding: 12px;
+    background: #303640;
+    color: white;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.frequentVerse {
+    background: #171a20;
+    white-space: pre-line;
+    line-height: 1.5;
+}
+
+.frequentDisplay {
+    margin-top: 10px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #f5c542;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+}
     </style>
 </head>
 
@@ -232,9 +333,28 @@
 
 </div>
 
+<!-- FREQUENTLY USED SONGS -->
+
+<button id="frequentToggle" type="button">
+    ★ Songs
+</button>
+
+<aside id="frequentSidebar">
+    <div class="frequentHeader">
+        <h2>Frequently Used</h2>
+
+        <button id="frequentClose" type="button">
+            &times;
+        </button>
+    </div>
+
+    <div id="frequentList"></div>
+</aside>
+    
 <script src="songs.js"></script>
 <script src="app.js"></script>
 <script src="anthem.js"></script>
+<script src="frequentAnthems.js"></script>
 <script src="anthem-app.js"></script>
 
 </body>
