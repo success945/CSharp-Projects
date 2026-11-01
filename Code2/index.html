@@ -393,5 +393,18 @@
 <script src="frequentAnthems.js"></script>
 <script src="anthem-app.js"></script>
 
+    <script>
+    const displayMode = document.getElementById("displayMode");
+
+    // Restore the previously selected mode
+    displayMode.value =
+        localStorage.getItem("churchDisplayMode") || "normal";
+
+    // Save the selected mode
+    displayMode.addEventListener("change", function () {
+        localStorage.setItem("churchDisplayMode", displayMode.value);
+    });
+    </script>
+    
 </body>
 </html>
