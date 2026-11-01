@@ -58,6 +58,20 @@
         #waiting {
             color: #555;
         }
+
+        /* SCROLLING DISPLAY */
+
+#scrollingLyrics {
+    display: none;
+
+    width: 92%;
+    height: 92vh;
+
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+        
     </style>
 </head>
 
@@ -65,11 +79,15 @@
 
     <div id="displayContainer">
 
+        <!-- NORMAL DISPLAY -->
     <div id="lyrics">
         <span id="waiting">
             Waiting for lyrics...
         </span>
     </div>
+
+        <!-- SCROLLING DISPLAY -->
+    <div id="scrollingLyrics"></div>
 
     </div>
 
