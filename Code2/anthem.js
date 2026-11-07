@@ -1482,6 +1482,194 @@ Olorun Olotito.`
         }
     ]
 },
+
+    // ==========================================
+// HYMN 242 — ENGLISH
+// ==========================================
+
+{
+    name: "242",
+    language: "English",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `DRAW NEARER 10.7.10.7. and Ref.
+
+Draw me after you, let us make haste.
+Song of Sol. 1:4
+
+I am Thine, O Lord, I have heard Thy voice`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `I am Thine, O Lord, I have heard Thy voice,
+And it told Thy love to me;
+But I long to rise in the arms of faith,
+And be closer drawn to Thee.`
+        },
+
+        {
+            title: "Chorus 1",
+            lyrics: `Draw me nearer, nearer, blessed Lord;
+To the Cross where Thou hast died;
+Draw me nearer, nearer, nearer, blessed Lord,
+To Thy precious, bleeding side.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `Consecrate me now to Thy service Lord,
+By the pow'r of grace divine;
+Let my soul look up with a steadfast hope,
+And my will be lost in Thine.`
+        },
+
+        {
+            title: "Chorus 2",
+            lyrics: `Draw me nearer, nearer, blessed Lord;
+To the Cross where Thou hast died;
+Draw me nearer, nearer, nearer, blessed Lord,
+To Thy precious, bleeding side.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `O the pure delight of a single hour;
+That before Thy throne I spend,
+When I kneel in pray'r and with Thee, my God,
+I commune as friend with friend.`
+        },
+
+        {
+            title: "Chorus 3",
+            lyrics: `Draw me nearer, nearer, blessed Lord;
+To the Cross where Thou hast died;
+Draw me nearer, nearer, nearer, blessed Lord,
+To Thy precious, bleeding side.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `There are depths of love that I cannot know,
+Till I cross the narrow sea;
+There are heights of joy that I may not reach;
+Till I rest in peace with Thee.`
+        },
+
+        {
+            title: "Chorus 4",
+            lyrics: `Draw me nearer, nearer, blessed Lord;
+To the Cross where Thou hast died;
+Draw me nearer, nearer, nearer, blessed Lord,
+To Thy precious, bleeding side.`
+        },
+
+        {
+            title: "Amen",
+            lyrics: `Amen.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 242 — YORUBA
+// ==========================================
+
+{
+    name: "242",
+    language: "Yoruba",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `10.7.10.7. & Ref.
+
+Fa mi, awa yo sare to O.
+O.Sol. 1:4.
+
+Oluwa, emi sa ti gb' ohun Re`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Oluwa, emi sa ti gb' ohun Re,
+O nso ife Re simi,
+Sugbon mo fe nde l' apa igbagbo,
+Ki nle tubo sun mo O.`
+        },
+
+        {
+            title: "Chorus 1",
+            lyrics: `Fa mi mora, mora, Oluwa,
+Sib' agbelebu t'O ku,
+Fa mi mora, mora, mora Oluwa,
+Sib' eje Re t'on'iye.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `Ya mi si mimo fun ise Tire,
+Nipa ore-ofe Re,
+Je ki nfi okan igbagbo w' oke,
+K' ife mi'si je Tire.`
+        },
+
+        {
+            title: "Chorus 2",
+            lyrics: `Fa mi mora, mora, Oluwa,
+Sib' agbelebu t'O ku,
+Fa mi mora, mora, mora Oluwa,
+Sib' eje Re t'on'iye.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `A! ayo mimo ti wakati kan,
+Ti mo lo nib' ite Re;
+'Gba mo ngb' adura si O, Olorun,
+Ti a soro bi ore.`
+        },
+
+        {
+            title: "Chorus 3",
+            lyrics: `Fa mi mora, mora, Oluwa,
+Sib' agbelebu t'O ku,
+Fa mi mora, mora, mora Oluwa,
+Sib' eje Re t'on'iye.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Ijinle ife mbe ti nko le mo,
+'Titi un o koja odo,
+Ayo giga ti emi ko le so,
+Titi uno fi de 'simi.`
+        },
+
+        {
+            title: "Chorus 4",
+            lyrics: `Fa mi mora, mora, Oluwa,
+Sib' agbelebu t'O ku,
+Fa mi mora, mora, mora Oluwa,
+Sib' eje Re t'on'iye.`
+        },
+
+        {
+            title: "Amin",
+            lyrics: `Amin.`
+        }
+    ]
+            },
     
     // ==========================================
 // HYMN 259 — ENGLISH
