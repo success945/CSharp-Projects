@@ -1,119 +1,85 @@
 const anthemFolders = [
 
     // ==========================================
-    // SECTION 1: ANTHEM
     // ==========================================
+// GOODNESS OF GOD — ANTHEM
+// ==========================================
 
-    {
-    name: "Glory to God in the Highest",
+{
+    name: "anthem",
     language: "English",
     items: [
         {
-            title: "Refrain 1",
-            lyrics: `Glory to God in the highest
-Glory to God in the highest
-Hallelujah! Hallelujah!
-Glory to God in the Highest
-Hallelujah! (Repeat)`
+            title: "I love You, Lord",
+            lyrics: `I love You, Lord
+Oh, Your mercy never fails me
+And all my days
+I've been held in Your hand
+From the moment that I wake up
+Until I lay my head
+Oh, I will sing of the goodness of God`
         },
 
         {
-            title: "Verse 1",
-            lyrics: `You are the Light in the darkness
-You are the Light in the darkness
-Hallelujah! Hallelujah!
-You are the Light in the darkness
-Hallelujah! (Repeat)`
+            title: "All my life You have been faithful",
+            lyrics: `All my life You have been faithful
+And all my life You have been so, so good
+With every breath that I am able
+Oh, I will sing of the goodness of God`
         },
 
         {
-            title: "Verse 2",
-            lyrics: `You bring beauty out of ashes
-You bring beauty out of ashes
-Hallelujah! Hallelujah!
-You bring beauty out of ashes
-Hallelujah! (Repeat)`
+            title: "I love Your voice",
+            lyrics: `I love Your voice
+You have led me through the fire
+And in darkest night
+You are close like no other
+I've known You as a Father
+I've known You as a Friend
+And I have lived in the goodness of God, ooh`
         },
 
         {
-            title: "Verse 3",
-            lyrics: `He’s the fourth Man in the Fire
-You are the fourth Man in the Fire
-Hallelujah! Hallelujah!
-You are the fourth Man in the Fire
-Hallelujah! (Repeat)`
+            title: "'Cause all my life You have been faithful",
+            lyrics: `'Cause all my life You have been faithful
+And all my life You have been so, so good
+With every breath that I am able
+Oh, I will sing of the goodness of God`
         },
 
         {
-            title: "Refrain 2",
-            lyrics: `Glory to God in the highest
-Glory to God in the highest
-Hallelujah! Hallelujah!
-Glory to God in the Highest
-Hallelujah! (Repeat)`
+            title: "Your goodness is running after",
+            lyrics: `Your goodness is running after
+It's running after me
+Your goodness is running after
+It's running after me
+With my life laid down
+I'm surrendered now
+I give You everything
+Your goodness is running after
+It's running after me`
         },
 
         {
-            title: "Verse 4",
-            lyrics: `You are the Lion of Judah
-You are the Lion of Judah
-Hallelujah! Hallelujah!
-You are the Lion of Judah
-Hallelujah!`
+            title: "Your goodness is running after (Repeat)",
+            lyrics: `Your goodness is running after
+It's running after me
+Your goodness is running after
+It's running after me
+With my life laid down
+I'm surrendered now
+I give You everything
+Your goodness is running after
+It's running after me`
         },
 
         {
-            title: "Verse 5",
-            lyrics: `You are the Fountain in the desert
-He is the Fountain in the desert
-Hallelujah! Hallelujah!
-You are the Fountain in the desert
-Hallelujah!`
-        },
-
-        {
-            title: "Verse 6",
-            lyrics: `You are the God of Signs and Wonders
-You are the God of Signs and Wonders
-Hallelujah! Hallelujah!
-You are the God of Signs and Wonders
-Hallelujah!`
-        },
-
-        {
-            title: "Verse 7",
-            lyrics: `You will never ever fail me
-You will never ever fail me
-Hallelujah! Hallelujah!
-You will never ever fail me
-Hallelujah!`
-        },
-
-        {
-            title: "Verse 8",
-            lyrics: `You have never ever failed me
-You have never ever failed me
-Hallelujah! Hallelujah!
-You have never ever failed me
-Hallelujah!`
-        },
-
-        {
-            title: "Verse 9",
-            lyrics: `Your Mercy is forever
-Your Mercy is forever
-Hallelujah! Hallelujah!
-Your Mercy is forever
-Hallelujah!`
-        },
-
-        {
-            title: "Refrain 3",
-            lyrics: `Glory to God in the highest
-Glory to God in the highest
-Hallelujah! Hallelujah!
-Glory to God in the Highest
-Hallelujah! (Repeat)`
+            title: "All my life You have been faithful (Final)",
+            lyrics: `All my life You have been faithful
+And all my life You have been so, so good
+With every breath that I am able
+Oh, I'm gonna sing of the goodness of God
+Oh, I will sing of the goodness of God`
         }
     ]
 },
