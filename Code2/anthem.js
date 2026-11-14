@@ -1,8 +1,7 @@
 const anthemFolders = [
 
     // ==========================================
-    // ==========================================
-// GOODNESS OF GOD — ANTHEM
+// ANTHEM
 // ==========================================
 
 {
@@ -10,76 +9,11 @@ const anthemFolders = [
     language: "English",
     items: [
         {
-            title: "I love You, Lord",
-            lyrics: `I love You, Lord
-Oh, Your mercy never fails me
-And all my days
-I've been held in Your hand
-From the moment that I wake up
-Until I lay my head
-Oh, I will sing of the goodness of God`
-        },
-
-        {
-            title: "All my life You have been faithful",
-            lyrics: `All my life You have been faithful
-And all my life You have been so, so good
-With every breath that I am able
-Oh, I will sing of the goodness of God`
-        },
-
-        {
-            title: "I love Your voice",
-            lyrics: `I love Your voice
-You have led me through the fire
-And in darkest night
-You are close like no other
-I've known You as a Father
-I've known You as a Friend
-And I have lived in the goodness of God, ooh`
-        },
-
-        {
-            title: "'Cause all my life You have been faithful",
-            lyrics: `'Cause all my life You have been faithful
-And all my life You have been so, so good
-With every breath that I am able
-Oh, I will sing of the goodness of God`
-        },
-
-        {
-            title: "Your goodness is running after",
-            lyrics: `Your goodness is running after
-It's running after me
-Your goodness is running after
-It's running after me
-With my life laid down
-I'm surrendered now
-I give You everything
-Your goodness is running after
-It's running after me`
-        },
-
-        {
-            title: "Your goodness is running after (Repeat)",
-            lyrics: `Your goodness is running after
-It's running after me
-Your goodness is running after
-It's running after me
-With my life laid down
-I'm surrendered now
-I give You everything
-Your goodness is running after
-It's running after me`
-        },
-
-        {
-            title: "All my life You have been faithful (Final)",
-            lyrics: `All my life You have been faithful
-And all my life You have been so, so good
-With every breath that I am able
-Oh, I'm gonna sing of the goodness of God
-Oh, I will sing of the goodness of God`
+            title: "If no be Jesus",
+            lyrics: `If no be Jesus
+What will I do
+In this earth o
+What will I do`
         }
     ]
 },
