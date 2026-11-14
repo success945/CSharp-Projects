@@ -1984,5 +1984,192 @@ Y'O je t'emi loni, titi lae.`
             lyrics: `Amin.`
         }
     ]
+},
+    // ==========================================
+// HYMN 503 — ENGLISH
+// ==========================================
+
+{
+    name: "503",
+    language: "English",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `I KNOW HE'S MINE L.M.
+
+Continue ye in my love.
+John 15:9
+
+There's one above all earthly friend`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `There's one above all earthly friend;
+Whose love all earthly love transcends,
+It is my Lord and Christ divine,
+My Lord because, I know He's mine.`
+        },
+
+        {
+            title: "Chorus 1",
+            lyrics: `I know He's mine, this friend so dear;
+He lives with me He's ever near;
+Ten thousand charms, around Him shine,
+And, best of all, I know He's mine.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `He's mine because He died for me;
+He saved my soul, He set me free,
+With joy I worship at His shrine,
+And cry, Praise God, I know He's mine.`
+        },
+
+        {
+            title: "Chorus 2",
+            lyrics: `I know He's mine, this friend so dear;
+He lives with me He's ever near;
+Ten thousand charms, around Him shine,
+And, best of all, I know He's mine.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `He's mine because He's in my heart,
+And never, never will we part,
+Just as the branch is to the vine,
+I'm joined to Christ, I know He's mine.`
+        },
+
+        {
+            title: "Chorus 3",
+            lyrics: `I know He's mine, this friend so dear;
+He lives with me He's ever near;
+Ten thousand charms, around Him shine,
+And, best of all, I know He's mine.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Some day upon the street of gold;
+Mine eyes His glory shall behold;
+Then while His arms around me twine,
+I'll cry for joy, I know He's mine.`
+        },
+
+        {
+            title: "Chorus 4",
+            lyrics: `I know He's mine, this friend so dear;
+He lives with me He's ever near;
+Ten thousand charms, around Him shine,
+And, best of all, I know He's mine.`
+        },
+
+        {
+            title: "Amen",
+            lyrics: `Amen.`
+        }
+    ]
+},
+
+// ==========================================
+// HYMN 503 — YORUBA
+// ==========================================
+
+{
+    name: "503",
+    language: "Yoruba",
+    items: [
+        {
+            title: "Introduction",
+            lyrics: `L.M. & Ref.
+
+E duro ninu ife mi.
+Jn. 15:9.
+
+Kristi mimo, Oluwa mi`
+        },
+
+        {
+            title: "Verse 1",
+            lyrics: `Kristi mimo, Oluwa mi,
+Ife Re ju t'araye lo;
+Ore otito li O je;
+Mo mo pe Oluwa mi ni.`
+        },
+
+        {
+            title: "Chorus 1",
+            lyrics: `Oun je t'emi, Ore mi owon,
+O mba mi gbe nigbagbogbo;
+Ogo didan wa yi I ka,
+Ju gbogbo re, Oun je t'emi.`
+        },
+
+        {
+            title: "Verse 2",
+            lyrics: `T'emi ni, O sa ku fun mi,
+O gba mi, O si da mi n'de,
+Pelu ayo ni mo nke pe,
+Ogo ni fun Olorun mi.`
+        },
+
+        {
+            title: "Chorus 2",
+            lyrics: `Oun je t'emi, Ore mi owon,
+O mba mi gbe nigbagbogbo;
+Ogo didan wa yi I ka,
+Ju gbogbo re, Oun je t'emi.`
+        },
+
+        {
+            title: "Verse 3",
+            lyrics: `T'emi ni, O ngbe okan mi;
+A ki y'o pinya tit' aye,
+Bi eka l'ara ajara;
+Beni mo je l'ara Kristi.`
+        },
+
+        {
+            title: "Chorus 3",
+            lyrics: `Oun je t'emi, Ore mi owon,
+O mba mi gbe nigbagbogbo;
+Ogo didan wa yi I ka,
+Ju gbogbo re, Oun je t'emi.`
+        },
+
+        {
+            title: "Interlude",
+            lyrics: `Interlude`
+        },
+
+        {
+            title: "Verse 4",
+            lyrics: `Lojo kan ni 'lu didan ni,
+Oju mi y'o ri ogo Re;
+Nigbana uno ro mo l'orun,
+Uno fo f'ayo p'On je t'emi.`
+        },
+
+        {
+            title: "Chorus 4",
+            lyrics: `Oun je t'emi, Ore mi owon,
+O mba mi gbe nigbagbogbo;
+Ogo didan wa yi I ka,
+Ju gbogbo re, Oun je t'emi.`
+        },
+
+        {
+            title: "Amin",
+            lyrics: `Amin.`
+        }
+    ]
 }
 ];
