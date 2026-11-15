@@ -12,23 +12,22 @@ if (isProjection) {
 
             const data = await response.json();
 
-            if (data.lyrics !==
-                localStorage.getItem("churchDisplayLyrics")) {
-                localStorage.setItem(
-                    "churchDisplayLyrics",
-                    data.lyrics
-                );
-                updateDisplay();
-            }
+            // Display lyrics directly without using localStorage
+if (data.mode === "scrolling") {
+    lyrics.style.display = "none";
+    scrollingLyrics.style.display = "block";
+} else {
+    scrollingLyrics.style.display = "none";
+    lyrics.style.display = "flex";
+}
 
-            if (data.mode !==
-                localStorage.getItem("churchDisplayMode")) {
-                localStorage.setItem(
-                    "churchDisplayMode",
-                    data.mode
-                );
-                applyDisplayMode();
-            }
+if (data.lyrics) {
+    if (lyrics.textContent !== data.lyrics) {
+        lyrics.textContent = data.lyrics;
+        fitLyrics();
+    }
+}
+            
         } catch (error) {
             console.log("Waiting for connection");
         }
