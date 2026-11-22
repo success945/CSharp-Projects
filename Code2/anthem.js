@@ -9,11 +9,46 @@ const anthemFolders = [
     language: "English",
     items: [
         {
-            title: "If no be Jesus",
-            lyrics: `If no be Jesus
-What will I do
-In this earth o
-What will I do`
+            title: "Verse 1",
+            lyrics: `As the deer pants for the water
+So my soul longs after You
+You alone are my heart's desire
+And I long to worship You`
+        },
+        {
+            title: "Chorus 1",
+            lyrics: `You alone are my strength, my shield
+To You alone may my spirit yield
+You alone are my heart's desire
+And I long to worship You`
+        },
+        {
+            title: "Verse 2",
+            lyrics: `You're my friend and You are my brother
+Even though You are a King
+I love You more than any other
+So much more than anything`
+        },
+        {
+            title: "Chorus 2",
+            lyrics: `You alone are my strength, my shield
+To You alone may my spirit yield
+You alone are my heart's desire
+And I long to worship You`
+        },
+        {
+            title: "Verse 3",
+            lyrics: `I want You more than gold or silver
+Only You can satisfy
+You alone are the real joy giver
+And the apple of my eye`
+        },
+        {
+            title: "Chorus 3",
+            lyrics: `You alone are my strength, my shield
+To You alone may my spirit yield
+You alone are my heart's desire
+And I long to worship You`
         }
     ]
 },
