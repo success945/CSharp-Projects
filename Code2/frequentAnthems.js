@@ -3,6 +3,7 @@ const frequentAnthems = [
     "Jesus Is LORD",
     "Praises",
     "Prayer",
+    "Testimony",
     "Worship",
     "Ministration",
     "Advice",
